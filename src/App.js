@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import Nav from "./components/Nav.js";
 import Contact from "./components/Contact.js";
 import Home from "./components/Home.js";
@@ -8,8 +8,8 @@ export default function App() {
     <Nav/>
     <Routes>
       <Route path="/contact" element={<Contact/>}/>
-      <Route path="/Home" element={<Home/>} />
-      <Route path="/Projects" element={<Projects/>} />
+      <Route path="/home" element={<Home/>} />
+      <Route path="/projects" element={<Projects/>} />
     </Routes>
 </>
 };
