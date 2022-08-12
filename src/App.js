@@ -7,9 +7,9 @@ export default function App() {
   return<>
     <Nav/>
     <Routes>
-      <Route path="/contact" element={<Contact/>}>
-        
-      </Route>
+      <Route path="/contact" element={<Contact/>}/>
+      <Route path="/Home" element={<Home/>} />
+      <Route path="/Projects" element={<Projects/>} />
     </Routes>
 </>
 };
