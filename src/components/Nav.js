@@ -12,7 +12,7 @@ export default function Nav(){
             <NavLink activeClassName="active" to="/projects">Projects</NavLink>
         </li>
         <li>
-            <NavLink activeClassName="active" to="/resume">Resume</NavLink>
+            <NavLink activeClassName="active" target="_blank" rel="noreferrer" to="/resume">Resume</NavLink>
         </li>
         <li>
             <NavLink to="/linkedin" target="_blank" rel="noreferrer">Linkedin</NavLink>
