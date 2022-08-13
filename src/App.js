@@ -12,6 +12,7 @@ export default function App() {
       <Route path="/home" element={<Home/>} />
       <Route path="/projects" element={<Projects/>} />
       <Route path="/linkedin" element={<RedirectPage/>} />
+      <Route path="/github" element={<RedirectPage/>} />
     </Routes>
 </>
 };
