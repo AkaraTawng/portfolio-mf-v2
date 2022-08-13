@@ -3,17 +3,19 @@ import {NavLink} from "react-router-dom";
 export default function Nav(){
     return <ul>
         <li>
-            <NavLink activeClassName="active" exact to="/home">Home</NavLink>
+            <NavLink activeClassName="active" to="/home">Home</NavLink>
         </li>
         <li>
-            <NavLink activeClassName="active" exact to="/projects">Projects</NavLink>
+            <NavLink activeClassName="active" to="/projects">Projects</NavLink>
         </li>
         <li>
-            <NavLink activeClassName="active" exact to="/resume">Resume</NavLink>
+            <NavLink activeClassName="active" to="/resume">Resume</NavLink>
         </li>
         <li>
-            <NavLink exact to="/linkedin" target="_blank" rel="noreferrer">Linkedin</NavLink>
-           {/* <a href="https://www.linkedin.com/feed/" rel="noreferrer" target="_blank">LinkedIn</a> */}
+            <NavLink to="/linkedin" target="_blank" rel="noreferrer">Linkedin</NavLink>
+        </li>
+        <li>
+            <NavLink to="/github" target="_blank" rel="noreferrer">Github</NavLink>
         </li>
     </ul>;
 }
