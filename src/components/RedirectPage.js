@@ -8,13 +8,19 @@ import Loader from "./Loader";
 
 export default function RedirectPage() {
     const [isLoading, setIsLoading] = useState(true);
-    const match = useMatch();
-    console.log(match);
+    const matchLinkedin = useMatch("/linkedin");
+    const matchGithub = useMatch("/github");
+    
+
 
 
     {isLoading && <Loader/>}
     return useEffect(() => {
-        window.location.replace("https://www.linkedin.com/feed/");
+        if(matchLinkedin){
+            window.location.replace("https://www.linkedin.com/feed/");
+        } else if(matchGithub){
+            window.location.replace("https://github.com/AkaraTawng")
+        }
         setIsLoading(false);
     },[]);
 }
