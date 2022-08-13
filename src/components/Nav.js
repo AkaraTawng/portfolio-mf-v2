@@ -12,7 +12,7 @@ export default function Nav(){
             <NavLink activeClassName="active" exact to="/resume">Resume</NavLink>
         </li>
         <li>
-            <NavLink to="linkedin" target="_blank" rel="noreferrer">Linkedin</NavLink>
+            <NavLink exact to="/linkedin" target="_blank" rel="noreferrer">Linkedin</NavLink>
            {/* <a href="https://www.linkedin.com/feed/" rel="noreferrer" target="_blank">LinkedIn</a> */}
         </li>
     </ul>;

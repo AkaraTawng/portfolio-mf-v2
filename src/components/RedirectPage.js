@@ -1,5 +1,7 @@
 
 import {useEffect} from "react";
 export default function RedirectPage() {
-    return null;
+    return useEffect(() => {
+        window.location.replace("https://www.linkedin.com/feed/");
+    },[]);
 }
