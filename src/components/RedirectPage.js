@@ -10,16 +10,16 @@ export default function RedirectPage() {
     const [isLoading, setIsLoading] = useState(true);
     const matchLinkedin = useMatch("/linkedin");
     const matchGithub = useMatch("/github");
+    const matchResume = useMatch("/resume");
     
-
-
-
-    {isLoading && <Loader/>}
-    return useEffect(() => {
+     return useEffect(() => {
+        {isLoading && <Loader/>}
         if(matchLinkedin){
             window.location.replace("https://www.linkedin.com/feed/");
         } else if(matchGithub){
-            window.location.replace("https://github.com/AkaraTawng")
+            window.location.replace("https://github.com/AkaraTawng");
+        } else if(matchResume){
+            window.location.replace("#");
         }
         setIsLoading(false);
     },[]);
