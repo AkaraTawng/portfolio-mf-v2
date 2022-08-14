@@ -37,3 +37,9 @@ $breakpoints: (
         @content
     }
 };
+
+@mixin laptop {
+    @media (min-width: map-get($breakpoints, laptop)){
+        @content
+    }
+};
