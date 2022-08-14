@@ -12,8 +12,7 @@ export default function RedirectPage() {
     const matchGithub = useMatch("/github");
     const matchResume = useMatch("/resume");
     
-     return useEffect(() => {
-        {isLoading && <Loader/>}
+        useEffect(() => {
         if(matchLinkedin){
             window.location.replace("https://www.linkedin.com/feed/");
         } else if(matchGithub){
@@ -23,4 +22,6 @@ export default function RedirectPage() {
         }
         setIsLoading(false);
     },[]);
+
+    return <Loader/>;
 }
