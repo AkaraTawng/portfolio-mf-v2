@@ -24,3 +24,9 @@ $colors: (
     "primary": #02254b,
     "secondary": #9c8321,
 );
+
+$breakpoints: (
+    "tablet":768px, 
+    "laptop":1280px, 
+    "desktop":1920px
+);
