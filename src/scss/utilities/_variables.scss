@@ -14,3 +14,8 @@ $font-weight: (
     "semibold": 500, 
     "bold": 700
 );
+
+$font-family: (
+    "primary": $primary-font,
+    "secondary": $secondary-font,
+);
