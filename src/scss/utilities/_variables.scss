@@ -6,3 +6,11 @@
 //variables
 $primary-font:  'Maven Pro', sans-serif;
 $secondary-font: 'Shadows Into Light', cursive;
+
+//maps
+$font-weight: (
+    "light": 300, 
+    "normal": 400, 
+    "semibold": 500, 
+    "bold": 700
+);
