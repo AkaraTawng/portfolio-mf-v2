@@ -2,9 +2,8 @@ import {NavLink} from "react-router-dom";
 
 export default function Nav(){
     return <>
-    
-        <div id="nav-links-container">
-            <nav>
+        <div id="nav-wrapper">
+            <nav id="nav-links-container">
                 <ul>
                     <li>
                         <NavLink className="nav-link" activeClassName="active" to="/contact">Contact</NavLink>
