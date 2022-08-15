@@ -1,3 +1,6 @@
-.nav-link {
+#nav-links-container li {
+  list-style-type: none;
+}
+#nav-links-container .nav-link {
   text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

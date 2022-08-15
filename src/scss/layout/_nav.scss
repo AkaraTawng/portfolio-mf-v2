@@ -1,3 +1,9 @@
-.nav-link{
-    text-decoration: none;
+#nav-links-container {
+    li{
+        list-style-type: none;
+    }
+
+    .nav-link{
+        text-decoration: none;
+    }
 }
