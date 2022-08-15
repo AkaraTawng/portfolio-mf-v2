@@ -21,6 +21,6 @@ export default function Nav(){
             <li>
                 <NavLink className="nav-link" to="/github" target="_blank" rel="noreferrer">Github</NavLink>
             </li>
-        </ul>;
+        </ul>
     </div>
 }
