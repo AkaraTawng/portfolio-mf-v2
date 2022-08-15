@@ -30,5 +30,6 @@
 
     .nav-link{
         text-decoration: none;
+        color: map-get($colors, "secondary");
     }
 }
