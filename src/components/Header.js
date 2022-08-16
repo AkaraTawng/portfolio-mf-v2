@@ -1,4 +1,5 @@
 import Nav from "./Nav.js";
+import Theme from "./Theme.js";
 
 export default function Header(){
     return <>
