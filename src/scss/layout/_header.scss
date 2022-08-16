@@ -1,14 +1,21 @@
-#header-flex-container {
+#header-nav-flex-container {
     display: flex;
     height: 9rem;
     background-color: map-get($colors, "primary");
     position: relative;
 
+    #header-title-subtitle-container{
+        h2 {
+            color: map-get($colors, "secondary");
+        }
+    }
+
     #header-title {
-        color: map-get($colors, "secondary");
+        color: rgb(255, 255, 241);
         letter-spacing: 1px;
         margin-left: 2rem;
         margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
     &::after{

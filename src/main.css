@@ -11,19 +11,23 @@
   color: #9c8321;
 }
 
-#header-flex-container {
+#header-nav-flex-container {
   display: flex;
   height: 9rem;
   background-color: #02254b;
   position: relative;
 }
-#header-flex-container #header-title {
+#header-nav-flex-container #header-title-subtitle-container h2 {
   color: #9c8321;
+}
+#header-nav-flex-container #header-title {
+  color: rgb(255, 255, 241);
   letter-spacing: 1px;
   margin-left: 2rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
-#header-flex-container::after {
+#header-nav-flex-container::after {
   position: absolute;
   content: "";
   width: 100%;
