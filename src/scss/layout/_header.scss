@@ -1,0 +1,27 @@
+#header-flex-container {
+    display: flex;
+    height: 9rem;
+    background-color: map-get($colors, "primary");
+    position: relative;
+
+    #header-title {
+        color: map-get($colors, "secondary");
+        letter-spacing: 1px;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    &::after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        // background-color: blue;
+        background-color: map-get($colors, "primary");
+        transform-origin: bottom right;
+        transform: skewY(-10deg);
+        z-index: -1;
+    }
+}
