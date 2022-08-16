@@ -2,14 +2,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Maven+Pro&family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Shadows+Into+Light&display=swap");
-#nav-wrapper {
-  background-color: #02254b;
+#nav-links-container li {
+  list-style-type: none;
+  display: none;
+}
+#nav-links-container .nav-link {
+  text-decoration: none;
+  color: #9c8321;
 }
 
-#nav-links-container {
+#header-flex-container {
+  display: flex;
+  height: 9rem;
+  background-color: #02254b;
   position: relative;
 }
-#nav-links-container::after {
+#header-flex-container #header-title {
+  color: #9c8321;
+  letter-spacing: 1px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+#header-flex-container::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -20,11 +34,4 @@
   transform-origin: bottom right;
   transform: skewY(-10deg);
   z-index: -1;
-}
-#nav-links-container li {
-  list-style-type: none;
-}
-#nav-links-container .nav-link {
-  text-decoration: none;
-  color: #9c8321;
 }/*# sourceMappingURL=main.css.map */

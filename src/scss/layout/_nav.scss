@@ -1,31 +1,11 @@
 @import "../utilities/variables";
 
-#nav-wrapper{
-    background-color: map-get($colors, "primary");
-}
 
 #nav-links-container {
-
-    //relative to self / old position
-    position: relative;
-
-    &::after{
-        //relative to closes positioned parent - nav-wrapper
-        position: absolute;
-        content: '';
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        // background-color: blue;
-        background-color: map-get($colors, "primary");
-        transform-origin: bottom right;
-        transform: skewY(-10deg);
-        z-index: -1;
-    }
-
+    
     li{
         list-style-type: none;
+        display: none;
     }
 
     .nav-link{
