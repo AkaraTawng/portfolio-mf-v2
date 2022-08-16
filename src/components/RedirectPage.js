@@ -1,18 +1,15 @@
 
 //hooks
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useMatch } from "react-router-dom";
 
-//pages
-import Loader from "./Loader";
-
-export default function RedirectPage() {
-    const [isLoading, setIsLoading] = useState(true);
+export default function RedirectPage(props) {
     const matchLinkedin = useMatch("/linkedin");
     const matchGithub = useMatch("/github");
     const matchResume = useMatch("/resume");
-    
-        useEffect(() => {
+
+       useEffect(() => {
+        props.setIsLoading(true)
         if(matchLinkedin){
             window.location.replace("https://www.linkedin.com/feed/");
         } else if(matchGithub){
@@ -20,8 +17,5 @@ export default function RedirectPage() {
         } else if(matchResume){
             window.location.replace("#");
         }
-        setIsLoading(false);
-    },[]);
-
-    return <Loader/>;
+    },[]);   
 }
