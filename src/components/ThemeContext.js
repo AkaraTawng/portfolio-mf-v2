@@ -25,3 +25,5 @@ function ThemeProvider(props){
         </ThemeContext.Provider>
      )
 }
+
+export {ThemeContext, ThemeProvider};
