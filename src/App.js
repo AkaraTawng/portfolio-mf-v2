@@ -13,12 +13,12 @@ import Projects from "./components/Projects.js";
 import RedirectPage from "./components/RedirectPage.js";
 import Loader from "./components/Loader";
 import Header from "./components/Header";
-import { ThemeContext, ThemeProvider } from "./components/ThemeContext";
+import { ThemeProvider } from "./components/ThemeContext";
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   return<>
-    <AppProvider>  
+    <ThemeProvider>  
       {isLoading ? <Loader/> : <Header/>}
         <Routes>
           <Route path="/contact" element={<Contact/>}/>
@@ -28,6 +28,6 @@ export default function App() {
           <Route path="/linkedin" element={<RedirectPage setIsLoading={setIsLoading}/>} />
           <Route path="/github" element={<RedirectPage setIsLoading={setIsLoading}/>} />
         </Routes>
-    </AppProvider>
+    </ThemeProvider>
 </>
 };
