@@ -13,6 +13,7 @@ import Projects from "./components/Projects.js";
 import RedirectPage from "./components/RedirectPage.js";
 import Loader from "./components/Loader";
 import Header from "./components/Header";
+import { ThemeContext, ThemeProvider } from "./components/ThemeContext";
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(false);
