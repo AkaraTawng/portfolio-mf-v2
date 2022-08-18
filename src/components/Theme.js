@@ -1,12 +1,11 @@
 
 export default function Theme() {
-    return <p id="theme-placeholder">Theme</p>
-    {/*
+    return (<>
+    <p>id="theme-placeholder">Theme</p>
 
-    <label>
+
+    <label className="toggle">
         <input type="checkbox"/>
-        <span/>
+        <span className="slider"/>
     </label> 
-
-*/}
-}
+</>)}
