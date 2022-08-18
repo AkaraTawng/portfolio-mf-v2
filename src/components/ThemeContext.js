@@ -13,4 +13,11 @@ function ThemeProvider(props){
             setTheme("light")
         };
     }
+
+     const value = {
+        theme, 
+        toggleTheme,
+     }
+
+     
 }
