@@ -19,5 +19,9 @@ function ThemeProvider(props){
         toggleTheme,
      }
 
-     
+     return (
+        <ThemeContext.Provider value={value}>
+            {props.children}
+        </ThemeContext.Provider>
+     )
 }
