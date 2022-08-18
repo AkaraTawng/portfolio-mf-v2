@@ -1,23 +1,7 @@
-#header-nav-flex-container {
-    display: flex;
+#header-wrapper {
     height: 14rem;
     background-color: map-get($colors, "primary");
     position: relative;
-
-    #header-title-subtitle-container{
-        h2 {
-            color: map-get($colors, "secondary");
-        }
-    }
-
-    #header-title {
-        color: rgb(255, 255, 241);
-        letter-spacing: 1px;
-        margin-left: 2rem;
-        margin-top: 4.5rem;
-        margin-bottom: 1rem;
-    }
-
     &::after{
         position: absolute;
         content: '';
@@ -25,10 +9,37 @@
         height: 100%;
         top: 0;
         left: 0;
-        // background-color: blue;
         background-color: map-get($colors, "primary");
         transform-origin: bottom right;
         transform: skewY(-10deg);
         z-index: -1;
     }
+
+    #nav-theme-flex-container {
+        width:97%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+#header-title-subtitle-container{
+    h2 {
+        color: map-get($colors, "secondary");
+        white-space: nowrap;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2.5rem;
+    }
+
+    #header-title {
+        color: rgb(255, 255, 241);
+        letter-spacing: 1.2px;
+        margin-left: 2rem;
+        margin-right: 2.5rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
 }
