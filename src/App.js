@@ -18,14 +18,16 @@ import { ThemeContext, ThemeProvider } from "./components/ThemeContext";
 export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   return<>
-  {isLoading ? <Loader/> : <Header/>}
-    <Routes>
-      <Route path="/contact" element={<Contact/>}/>
-      <Route path="/home" element={<Home/>} />
-      <Route path="/projects" element={<Projects/>} />
-      <Route path="/resume" element={<RedirectPage/>} />
-      <Route path="/linkedin" element={<RedirectPage setIsLoading={setIsLoading}/>} />
-      <Route path="/github" element={<RedirectPage setIsLoading={setIsLoading}/>} />
-    </Routes>
+    <AppProvider>  
+      {isLoading ? <Loader/> : <Header/>}
+        <Routes>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/home" element={<Home/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/resume" element={<RedirectPage/>} />
+          <Route path="/linkedin" element={<RedirectPage setIsLoading={setIsLoading}/>} />
+          <Route path="/github" element={<RedirectPage setIsLoading={setIsLoading}/>} />
+        </Routes>
+    </AppProvider>
 </>
 };
