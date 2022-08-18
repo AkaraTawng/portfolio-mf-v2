@@ -1,4 +1,4 @@
 
 export default function Theme() {
-    return <div>Theme</div>
+    return <p id="theme-placeholder">Theme</p>
 }
