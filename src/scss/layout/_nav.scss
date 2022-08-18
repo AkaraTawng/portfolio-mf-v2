@@ -1,11 +1,16 @@
 @import "../utilities/variables";
-
+#nav-placeholder {
+    color: white;
+    width: fit-content;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
 
 #nav-links-container {
     
     li{
         list-style-type: none;
-        display: none;
+        // display: none;
     }
 
     .nav-link{
