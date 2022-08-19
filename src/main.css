@@ -94,6 +94,7 @@
   left: 0;
   right: 0;
   background-color: #ccc;
+  transition: 0.3s;
 }
 .toggle .slider::before {
   position: absolute;
@@ -107,4 +108,7 @@
 }
 .toggle input:checked + .slider::before {
   transform: translateX(26px);
+}
+.toggle input:checked + .slider {
+  background-color: #2196f3;
 }/*# sourceMappingURL=main.css.map */

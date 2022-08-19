@@ -21,6 +21,7 @@
         right: 0;
 
         background-color: #ccc;
+        transition: 0.3s;
 
         &::before {
             position: absolute;
@@ -37,4 +38,8 @@
     input:checked + .slider::before {
         transform: translateX(26px);
     }   
+
+    input:checked + .slider {
+        background-color: #2196f3;
+    }
 }
