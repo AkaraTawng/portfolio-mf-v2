@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Maven+Pro&family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Shadows+Into+Light&display=swap");
+@import "./scss/base/resets" import;
 #nav-placeholder {
   color: white;
   width: -webkit-fit-content;
@@ -67,9 +68,4 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }/*# sourceMappingURL=main.css.map */
