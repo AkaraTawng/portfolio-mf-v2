@@ -95,6 +95,12 @@
   right: 0;
   background-color: #ccc;
 }
-.toggle .slider ::before {
+.toggle .slider::before {
   position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
 }/*# sourceMappingURL=main.css.map */
