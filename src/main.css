@@ -85,4 +85,7 @@
   opacity: 0;
   width: 0;
   height: 0;
+}
+.toggle .slider {
+  position: absolute;
 }/*# sourceMappingURL=main.css.map */
