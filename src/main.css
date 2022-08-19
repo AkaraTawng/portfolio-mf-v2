@@ -103,4 +103,7 @@
   left: 4px;
   bottom: 4px;
   background-color: white;
+}
+.toggle input:checked + .slider::before {
+  transform: translateX(26px);
 }/*# sourceMappingURL=main.css.map */
