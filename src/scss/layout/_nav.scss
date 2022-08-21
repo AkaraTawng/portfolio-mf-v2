@@ -19,6 +19,24 @@
     }
 }
 
-// body {
-//     background-color: purple;
-// }
+
+/* write styles for both navs. when finished, make nav folder in layout folder and add new partial for mobile nav and navigation. change path names in places used to match new paths*/
+/* mobile nav */
+.mobile-nav {
+    background-color: orange;
+    @include laptop {
+        display: none;
+    }
+}
+
+
+
+.navigation {
+    background-color: green;
+    display: none;
+    /* add laptop media mixin to set display to show */
+    @include laptop {
+        display: block;
+    }
+}
+
