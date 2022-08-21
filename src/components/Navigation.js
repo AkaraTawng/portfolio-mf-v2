@@ -1,4 +1,4 @@
-import NavLinks from "./NavLinks.js";
+ import NavLinks from "./NavLinks.js";
 const Navigation = () => {
     return (
         <nav>
