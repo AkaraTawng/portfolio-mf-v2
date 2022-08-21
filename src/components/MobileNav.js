@@ -3,7 +3,7 @@ import { CgMenuMotion } from "react-icons/cg";
 const MobileNav = () => {
     return (
         <nav className="mobile-nav">
-            <CgMenuMotion className="hamburger   "/>
+            <CgMenuMotion className="hamburger"/>
             <NavLinks />
         </nav>
     );

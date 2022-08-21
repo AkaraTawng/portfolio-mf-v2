@@ -24,6 +24,10 @@
 /* mobile nav */
 .mobile-nav {
     background-color: orange;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    cursor: pointer;
     @include laptop {
         display: none;
     }
