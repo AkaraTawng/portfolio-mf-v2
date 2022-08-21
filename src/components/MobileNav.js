@@ -1,7 +1,7 @@
 import NavLinks from "./NavLinks.js";
 const MobileNav = () => {
     return (
-        <nav>
+        <nav className="mobile-nav">
             <NavLinks />
         </nav>
     );
