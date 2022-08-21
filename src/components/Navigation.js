@@ -1,7 +1,7 @@
    import NavLinks from "./NavLinks.js";
 const Navigation = () => {
     return (
-        <nav>
+        <nav className="navigation">
             <NavLinks/>
         </nav>
     )
