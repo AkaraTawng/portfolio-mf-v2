@@ -41,6 +41,13 @@
   }
 }
 
+/* hamburger */
+.hamburger {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
 #header-wrapper {
   height: 14rem;
   background-color: #02254b;
