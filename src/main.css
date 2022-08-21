@@ -115,4 +115,8 @@
 }
 .toggle input:checked + .slider {
   background-color: #9c8321;
+}
+
+#header-title-subtitle-container #header-title.dark {
+  color: cadetblue;
 }/*# sourceMappingURL=main.css.map */
