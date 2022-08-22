@@ -15,24 +15,43 @@ const NavLinks = (props) => {
     console.log("props", props)
     return (<>
             <ul id="nav-links-container">
-                <motion.li onClick={() => props.onCloseMobileMenu()}>
+                <motion.li 
+                    initial={animateFrom}
+                    animate={animateTo}
+                    onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link" to="/contact">Contact</NavLink>
                 </motion.li>
-                <motion.li onClick={() => props.onCloseMobileMenu()}>
+                <motion.li 
+                    initial={animateFrom}
+                    animate={animateTo}
+                    onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link" to="/">Home</NavLink>
                 </motion.li>
-                <motion.li onClick={() => props.onCloseMobileMenu()}>
+                <motion.li 
+                    initial={animateFrom}
+                    animate={animateTo}
+                    onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link" to="/projects">Projects</NavLink>
                 </motion.li>
-                <motion.li onClick={() => props.onCloseMobileMenu()}>
-                    <NavLink className="nav-link external-navlink" target="_blank" rel="noreferrer" to="/resume">Resume</NavLink>
+                <motion.li 
+                    initial={animateFrom}
+                    animate={animateTo}
+                    onClick={() => props.onCloseMobileMenu()}>
+                    <NavLink 
+                    className="nav-link external-navlink" target="_blank" rel="noreferrer" to="/resume">Resume</NavLink>
                 </motion.li>
-                <motion.li onClick={() => props.onCloseMobileMenu()}>
+                <motion.li 
+                    initial={animateFrom}
+                    animate={animateTo}
+                    onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link external-navlink" to="/linkedin" target="_blank" rel="noreferrer">Linkedin</NavLink>
-                </li>
-                <li onClick={() => props.onCloseMobileMenu()}>
+                </motion.li>
+                <motion.li 
+                    initial={animateFrom}
+                    animate={animateTo}
+                    onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link external-navlink" to="/github" target="_blank" rel="noreferrer">Github</NavLink>
-                </li>
+                </motion.li>
             </ul>
     </>)
 };
