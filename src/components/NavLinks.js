@@ -15,10 +15,10 @@ const NavLinks = () => {
                     <NavLink className="nav-link" activeClassName="active" target="_blank" rel="noreferrer" to="/resume">Resume</NavLink>
                 </li>
                 <li>
-                    <NavLink className="nav-link" to="/linkedin" target="_blank" rel="noreferrer">Linkedin</NavLink>
+                    <NavLink className="nav-link" to="/linkedin" target="_blank" rel="noreferrer" activeClassName="active">Linkedin</NavLink>
                 </li>
                 <li>
-                    <NavLink className="nav-link" to="/github" target="_blank" rel="noreferrer">Github</NavLink>
+                    <NavLink className="nav-link" to="/github" target="_blank" rel="noreferrer" activeClassName="active">Github</NavLink>
                 </li>
             </ul>
     </>)
