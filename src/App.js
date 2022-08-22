@@ -22,7 +22,7 @@ export default function App() {
       {isLoading ? <Loader/> : <Header/>}
         <Routes>
           <Route path="/contact" element={<Contact/>}/>
-          <Route path="/home" element={<Home/>} />
+          <Route path="/" element={<Home/>} />
           <Route path="/projects" element={<Projects/>} />
           <Route path="/resume" element={<RedirectPage/>} />
           <Route path="/linkedin" element={<RedirectPage setIsLoading={setIsLoading}/>} />
