@@ -13,13 +13,13 @@ const NavLinks = (props) => {
                     <NavLink className="nav-link" to="/projects">Projects</NavLink>
                 </li>
                 <li>
-                    <NavLink className="nav-link" target="_blank" rel="noreferrer" to="/resume">Resume</NavLink>
+                    <NavLink className="nav-link external-navlink" target="_blank" rel="noreferrer" to="/resume">Resume</NavLink>
                 </li>
                 <li>
-                    <NavLink className="nav-link" to="/linkedin" target="_blank" rel="noreferrer">Linkedin</NavLink>
+                    <NavLink className="nav-link external-navlink" to="/linkedin" target="_blank" rel="noreferrer">Linkedin</NavLink>
                 </li>
                 <li>
-                    <NavLink className="nav-link" to="/github" target="_blank" rel="noreferrer">Github</NavLink>
+                    <NavLink className="nav-link external-navlink" to="/github" target="_blank" rel="noreferrer">Github</NavLink>
                 </li>
             </ul>
     </>)
