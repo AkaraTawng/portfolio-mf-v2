@@ -31,6 +31,10 @@
         &:hover{ 
             color: map-get($colors, "secondary");
         }
+        &:active {
+            padding-bottom: 3%;
+            border-bottom: 1px solid white;
+        }
         &.active{
             padding-bottom: 3%;
             border-bottom: 1px solid white;
