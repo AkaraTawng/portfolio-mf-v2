@@ -54,6 +54,15 @@
   color: white;
 }
 
+/* close hamburger */
+.close-hamburger {
+  width: 30px;
+  height: 25px;
+  padding-top: 5px;
+  padding-left: 3px;
+  color: white;
+}
+
 #header-wrapper {
   height: 14rem;
   background-color: #02254b;
