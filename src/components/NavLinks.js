@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"; 
 const NavLinks = () => {
     return (<>
-            <ul>
+            <ul id="nav-links-container">
                 <li>
                     <NavLink className="nav-link" activeClassName="active" to="/contact">Contact</NavLink>
                 </li>
