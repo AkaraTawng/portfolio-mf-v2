@@ -1,5 +1,6 @@
 import NavLinks from "./NavLinks.js";
 import { CgMenuMotion } from "react-icons/cg";
+import { IoClose } from "react-icons/io";
 import { useState } from "react";
 const MobileNav = () => {
     const [isOpen, setIsOpen] = useState(false);
