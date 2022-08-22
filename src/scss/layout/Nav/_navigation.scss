@@ -1,9 +1,14 @@
 .navigation {
     background-color: green;
-    display: none;
 
-    @include laptop {
-        display: block;
-        /* add rest of styles inside media query here */
+    #nav-links-container {
+        background-color: white;
     }
+    // display: none;
+
+    // @include laptop {
+    //     display: block;
+    //     /* add rest of styles inside media query here */
+       
+    // }
 }
