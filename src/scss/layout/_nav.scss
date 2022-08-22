@@ -7,6 +7,16 @@
 }
 
 #nav-links-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
     
     li{
         list-style-type: none;
@@ -15,7 +25,8 @@
 
     .nav-link{
         text-decoration: none;
-        color: map-get($colors, "secondary");
+        // color: map-get($colors, "secondary");
+        color: white;
     }
 }
 
@@ -23,13 +34,10 @@
 /* write styles for both navs. when finished, make nav folder in layout folder and add new partial for mobile nav and navigation. change path names in places used to match new paths*/
 /* mobile nav */
 .mobile-nav {
-    // background-color: orange;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     position: absolute;
-    left: 14px;
-    top: 8px;
     cursor: pointer;
     @include laptop {
         display: none;
@@ -52,13 +60,13 @@
     width: 40px;
     height: 40px;
     color: white;
+    padding: 20% 0 1.5% 30%;  
 }
 
 /* close hamburger */
 .close-hamburger {
     width: 30px;
     height: 25px;
-    padding-top: 5px;
-    padding-left: 3px;
+    padding: 4% 0 1.5% 4%;  
     color: white;
 }

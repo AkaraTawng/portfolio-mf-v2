@@ -11,12 +11,23 @@
   margin-left: 0.5rem;
 }
 
+#nav-links-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100vw;
+  height: 100vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 #nav-links-container li {
   list-style-type: none;
 }
 #nav-links-container .nav-link {
   text-decoration: none;
-  color: #9c8321;
+  color: white;
 }
 
 /* write styles for both navs. when finished, make nav folder in layout folder and add new partial for mobile nav and navigation. change path names in places used to match new paths*/
@@ -26,8 +37,6 @@
   align-items: flex-start;
   flex-direction: column;
   position: absolute;
-  left: 14px;
-  top: 8px;
   cursor: pointer;
 }
 @media (min-width: 1280px) {
@@ -52,14 +61,14 @@
   width: 40px;
   height: 40px;
   color: white;
+  padding: 20% 0 1.5% 30%;
 }
 
 /* close hamburger */
 .close-hamburger {
   width: 30px;
   height: 25px;
-  padding-top: 5px;
-  padding-left: 3px;
+  padding: 4% 0 1.5% 4%;
   color: white;
 }
 
