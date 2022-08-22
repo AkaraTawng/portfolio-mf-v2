@@ -1,21 +1,22 @@
 import { NavLink } from "react-router-dom"; 
+import { motion } from "framer-motion";
 const NavLinks = (props) => {
     console.log("props", props)
     return (<>
             <ul id="nav-links-container">
-                <li onClick={() => props.onCloseMobileMenu()}>
+                <motion.li onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link" to="/contact">Contact</NavLink>
-                </li>
-                <li onClick={() => props.onCloseMobileMenu()}>
+                </motion.li>
+                <motion.li onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link" to="/">Home</NavLink>
-                </li>
-                <li onClick={() => props.onCloseMobileMenu()}>
+                </motion.li>
+                <motion.li onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link" to="/projects">Projects</NavLink>
-                </li>
-                <li onClick={() => props.onCloseMobileMenu()}>
+                </motion.li>
+                <motion.li onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link external-navlink" target="_blank" rel="noreferrer" to="/resume">Resume</NavLink>
-                </li>
-                <li onClick={() => props.onCloseMobileMenu()}>
+                </motion.li>
+                <motion.li onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link external-navlink" to="/linkedin" target="_blank" rel="noreferrer">Linkedin</NavLink>
                 </li>
                 <li onClick={() => props.onCloseMobileMenu()}>
