@@ -1,6 +1,12 @@
 import { NavLink } from "react-router-dom"; 
 import { motion } from "framer-motion";
 const NavLinks = (props) => {
+    const animateFrom = {
+        opacity: 0, 
+        y: -40
+    }
+
+    
     console.log("props", props)
     return (<>
             <ul id="nav-links-container">
