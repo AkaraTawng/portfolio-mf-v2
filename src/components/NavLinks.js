@@ -5,8 +5,13 @@ const NavLinks = (props) => {
         opacity: 0, 
         y: -40
     }
-
     
+    const animateTo = {
+        opacity: 1, 
+        y: 0
+    }
+
+
     console.log("props", props)
     return (<>
             <ul id="nav-links-container">
