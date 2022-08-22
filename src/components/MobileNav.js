@@ -6,10 +6,11 @@ const MobileNav = () => {
     const [isOpen, setIsOpen] = useState(false);
     const hamburgerIcon = <CgMenuMotion className="hamburger" onClick={() => setIsOpen(!isOpen)}/>;
     const closeHamburgerIcon = <CgClose className="close-hamburger" onClick={() => setIsOpen(!isOpen)}/>;
+    const handleCloseMobileMenu = () => setIsOpen(false); 
     return (
         <nav className="mobile-nav">
             {isOpen ? closeHamburgerIcon : hamburgerIcon}
-            {isOpen && <NavLinks />}
+            {isOpen && <NavLinks  onCloseMobileMenu={handleCloseMobileMenu}/>}
         </nav>
     );
 }
