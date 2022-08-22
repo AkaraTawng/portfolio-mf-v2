@@ -1,12 +1,14 @@
 import NavLinks from "./NavLinks.js";
 import { CgMenuMotion } from "react-icons/cg";
-import { IoClose } from "react-icons/io";
+import { CgClose } from "react-icons/cg";
 import { useState } from "react";
 const MobileNav = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const hamburgerIcon = <CgMenuMotion className="hamburger" onClick={() => setIsOpen(!isOpen)}/>;
+    const closeHamburgerIcon = <CgClose className="close-hamburger" onClick={() => setIsOpen(!isOpen)}/>;
     return (
         <nav className="mobile-nav">
-            <CgMenuMotion className="hamburger" onClick={() => setIsOpen(!isOpen)}/>
+            {isOpen ? closeHamburgerIcon : hamburgerIcon}
             {isOpen && <NavLinks />}
         </nav>
     );
