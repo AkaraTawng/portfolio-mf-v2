@@ -1,3 +1,40 @@
+#nav-links-container {
+    /* mobile */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top: 2px solid map-get($colors, "secondary");
+    
+    li{
+        list-style-type: none;
+        // display: none;
+    }
+
+    .nav-link{
+        text-decoration: none;
+        // color: map-get($colors, "secondary");
+        color: white;
+        &:hover{ 
+            color: map-get($colors, "secondary");
+        }
+        &:active {
+            padding-bottom: 3%;
+            border-bottom: 1px solid white;
+        }
+        &.active{
+            padding-bottom: 3%;
+            border-bottom: 1px solid white;
+            color: map-get($colors, "secondary");
+        }
+    }
+}
+
 .mobile-nav {
     display: flex;
     align-items: flex-start;
