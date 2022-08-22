@@ -1,10 +1,11 @@
 .navigation {
     background-color: green;
-
+    display: none;
     #nav-links-container {
-        background-color: white;
+        // background-color: white;
+        background-color: map-get($colors, "primary");
     }
-    // display: none;
+    
 
     // @include laptop {
     //     display: block;
