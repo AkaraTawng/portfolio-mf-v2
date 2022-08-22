@@ -6,7 +6,7 @@ const MobileNav = () => {
     return (
         <nav className="mobile-nav">
             <CgMenuMotion className="hamburger" onClick={() => setIsOpen(!isOpen)}/>
-            <NavLinks />
+            {isOpen && <NavLinks />}
         </nav>
     );
 }
