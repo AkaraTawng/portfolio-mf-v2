@@ -16,6 +16,7 @@
     height: 100vh;
     padding-top: 5%;
     padding-bottom: 5%;
+    border-top: 2px solid map-get($colors, "secondary");
     
     
     li{
@@ -27,6 +28,14 @@
         text-decoration: none;
         // color: map-get($colors, "secondary");
         color: white;
+        &:hover{ 
+            color: map-get($colors, "secondary");
+        }
+        &.active{
+            padding-bottom: 3%;
+            border-bottom: 1px solid white;
+            color: map-get($colors, "secondary");
+        }
     }
 }
 
@@ -67,6 +76,6 @@
 .close-hamburger {
     width: 30px;
     height: 25px;
-    padding: 4% 0 1.5% 4%;  
+    padding: 14px 0 6px 13px;  
     color: white;
 }

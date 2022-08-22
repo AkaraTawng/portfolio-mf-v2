@@ -21,6 +21,7 @@
   height: 100vh;
   padding-top: 5%;
   padding-bottom: 5%;
+  border-top: 2px solid #9c8321;
 }
 #nav-links-container li {
   list-style-type: none;
@@ -28,6 +29,14 @@
 #nav-links-container .nav-link {
   text-decoration: none;
   color: white;
+}
+#nav-links-container .nav-link:hover {
+  color: #9c8321;
+}
+#nav-links-container .nav-link.active {
+  padding-bottom: 3%;
+  border-bottom: 1px solid white;
+  color: #9c8321;
 }
 
 /* write styles for both navs. when finished, make nav folder in layout folder and add new partial for mobile nav and navigation. change path names in places used to match new paths*/
@@ -68,7 +77,7 @@
 .close-hamburger {
   width: 30px;
   height: 25px;
-  padding: 4% 0 1.5% 4%;
+  padding: 14px 0 6px 13px;
   color: white;
 }
 
