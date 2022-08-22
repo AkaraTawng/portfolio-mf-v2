@@ -1,0 +1,10 @@
+.mobile-nav {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    cursor: pointer;
+    @include laptop {
+        display: none;
+    }
+}
