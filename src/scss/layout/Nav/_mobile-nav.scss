@@ -18,7 +18,6 @@
 
     .nav-link{
         text-decoration: none;
-        // color: map-get($colors, "secondary");
         color: white;
         &:hover{ 
             color: map-get($colors, "secondary");
