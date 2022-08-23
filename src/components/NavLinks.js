@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const NavLinks = (props) => {
     const animateFrom = {
         opacity: 0, 
-        y: -40
+        y: -50
     }
     
     const animateTo = {
@@ -11,31 +11,33 @@ const NavLinks = (props) => {
         y: 0
     }
 
-
-    console.log("props", props)
     return (<>
             <ul id="nav-links-container">
                 <motion.li 
                     initial={animateFrom}
                     animate={animateTo}
+                    transition={{delay: 0.05}}
                     onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link" to="/contact">Contact</NavLink>
                 </motion.li>
                 <motion.li 
                     initial={animateFrom}
                     animate={animateTo}
+                    transition={{delay: 0.1}}
                     onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link" to="/">Home</NavLink>
                 </motion.li>
                 <motion.li 
                     initial={animateFrom}
                     animate={animateTo}
+                    transition={{delay: 0.2}}
                     onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link" to="/projects">Projects</NavLink>
                 </motion.li>
                 <motion.li 
                     initial={animateFrom}
                     animate={animateTo}
+                    transition={{delay: 0.3}}
                     onClick={() => props.onCloseMobileMenu()}>
                     <NavLink 
                     className="nav-link external-navlink" target="_blank" rel="noreferrer" to="/resume">Resume</NavLink>
@@ -43,12 +45,14 @@ const NavLinks = (props) => {
                 <motion.li 
                     initial={animateFrom}
                     animate={animateTo}
+                    transition={{delay: 0.4}}
                     onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link external-navlink" to="/linkedin" target="_blank" rel="noreferrer">Linkedin</NavLink>
                 </motion.li>
                 <motion.li 
                     initial={animateFrom}
                     animate={animateTo}
+                    transition={{delay: 0.5}}
                     onClick={() => props.onCloseMobileMenu()}>
                     <NavLink className="nav-link external-navlink" to="/github" target="_blank" rel="noreferrer">Github</NavLink>
                 </motion.li>
