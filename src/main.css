@@ -79,6 +79,15 @@
   width: 40px;
   height: 33px;
 }
+@media (min-width: 1280px) {
+  .toggle {
+    position: absolute;
+    right: 2%;
+    top: 25%;
+    width: 50px;
+    height: 37px;
+  }
+}
 .toggle input {
   opacity: 0;
   width: 0;
@@ -107,10 +116,22 @@
   transition: 0.4s;
   border-radius: 50%;
 }
+@media (min-width: 1280px) {
+  .toggle .slider::before {
+    height: 15px;
+    width: 15px;
+    left: 2px;
+  }
+}
 .toggle input:checked + .slider::before {
   transform: translateX(18px);
   background-color: white;
   transition: 0.4s;
+}
+@media (min-width: 1280px) {
+  .toggle input:checked + .slider::before {
+    transform: translateX(22px);
+  }
 }
 .toggle input:checked + .slider {
   background-color: #9c8321;
