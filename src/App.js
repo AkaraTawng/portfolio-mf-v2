@@ -24,7 +24,7 @@ export default function App() {
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/" element={<Home/>} />
           <Route path="/projects" element={<Projects/>} />
-          <Route path="/resume" element={<RedirectPage/>} />
+          <Route path="/resume" element={<RedirectPage setIsLoading={setIsLoading}/>} />
           <Route path="/linkedin" element={<RedirectPage setIsLoading={setIsLoading}/>} />
           <Route path="/github" element={<RedirectPage setIsLoading={setIsLoading}/>} />
         </Routes>
