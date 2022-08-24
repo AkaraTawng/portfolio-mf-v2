@@ -4,6 +4,7 @@ export default function Footer() {
         <div id="footer-wrapper">
              <div id="sitemap-contact-flex-container">   
                 <section id="sitemap">
+                    <h2>Sitemap</h2>
                     <ul>
                         <li>Home</li>
                         <li>Projects</li>
@@ -15,6 +16,7 @@ export default function Footer() {
                 </section>
 
                 <section id="contact">
+                    <h2>Contact</h2>
                     <ul>
                         <li>
                             <span>Phone: </span>+856 020-983-09152
