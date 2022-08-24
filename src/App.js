@@ -21,7 +21,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   return<>
       {isLoading ? <Loader/> : <Header/>}
-      {/* <Footer/> */}
+        <Footer/>
         <Routes>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/" element={<Home/>} />

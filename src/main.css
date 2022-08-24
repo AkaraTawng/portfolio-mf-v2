@@ -273,4 +273,20 @@
 
 #loader-icon-wrapper {
   margin: 17% 0 0 42%;
+}
+
+#footer-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#sitemap {
+  background-color: green;
+  color: black;
+}
+
+#contact {
+  background-color: purple;
+  color: black;
 }/*# sourceMappingURL=main.css.map */
