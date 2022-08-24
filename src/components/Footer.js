@@ -11,7 +11,7 @@ export default function Footer() {
                         <li><Link className="footer-link" to="/contact">Contact</Link></li>
                         <li><Link className="footer-link" to="/resume" target="_blank">Resume</Link></li>
                         <li><Link className="footer-link" to="/linkedin" target="_blank">Linkedin</Link></li>
-                        <li><Link  className="footer-link" to="/github" target="_blank">GitHub</Link></li>
+                        <li><Link className="footer-link" to="/github" target="_blank">GitHub</Link></li>
                     </ul>
                 </section>
 
@@ -27,7 +27,7 @@ export default function Footer() {
                     </ul>
                 </section>
             </div>
-            <p id="copyright">&copy; Christopher Chamberlain</p>
+            <p id="copyright">&copy; Christopher Chamberlain 2022</p>
         </div>
     </>
 }

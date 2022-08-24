@@ -20,14 +20,18 @@
 
         .footer-link {
             text-decoration: none;
+            &:hover {
+                color: map-get($colors, "secondary") !important;
+            }
+            &:active {
+                color: white !important;
+            }
             &:visited {
                 color: white;
             }
         }
         
         #sitemap {
-            // background-color: green;
-            color: black;
             color: white;
             text-align: center;
             
@@ -41,7 +45,6 @@
         }
         
         #contact {
-            // background-color: purple;
             color: white;
             text-align: center;
 

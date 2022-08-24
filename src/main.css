@@ -295,11 +295,16 @@
 #footer-wrapper #sitemap-contact-flex-container .footer-link {
   text-decoration: none;
 }
+#footer-wrapper #sitemap-contact-flex-container .footer-link:hover {
+  color: #9c8321 !important;
+}
+#footer-wrapper #sitemap-contact-flex-container .footer-link:active {
+  color: white !important;
+}
 #footer-wrapper #sitemap-contact-flex-container .footer-link:visited {
   color: white;
 }
 #footer-wrapper #sitemap-contact-flex-container #sitemap {
-  color: black;
   color: white;
   text-align: center;
 }
