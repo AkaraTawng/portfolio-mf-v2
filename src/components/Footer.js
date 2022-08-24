@@ -23,6 +23,7 @@ export default function Footer() {
                     </li>
                 </ul>
             </section>
+            <p id="copyright">&copy; Christopher Chamberlain</p>
         </div>
     </>
 }
