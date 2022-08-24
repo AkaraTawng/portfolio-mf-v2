@@ -3,30 +3,29 @@
     bottom: 0;
     width: 100%;
     background-color: map-get($colors, "primary");
-}
 
-#sitemap-contact-flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 15rem;
+    #sitemap-contact-flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 15rem;
+        
+        #sitemap {
+            background-color: green;
+            color: black;
+            color: white;
+        }
+        
+        #contact {
+            background-color: purple;
+            color: black;
+            color: white;
+        }
+    }
     
-}
-
-#sitemap {
-    background-color: green;
-    color: black;
-    color: white;
-}
-
-#contact {
-    background-color: purple;
-    color: black;
-    color: white;
-}
-
-#copyright {
-    text-align: center;
-    color: white;
+    #copyright {
+        text-align: center;
+        color: white;
+    }
 }

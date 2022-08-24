@@ -281,28 +281,24 @@
   width: 100%;
   background-color: #02254b;
 }
-
-#sitemap-contact-flex-container {
+#footer-wrapper #sitemap-contact-flex-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 15rem;
 }
-
-#sitemap {
+#footer-wrapper #sitemap-contact-flex-container #sitemap {
   background-color: green;
   color: black;
   color: white;
 }
-
-#contact {
+#footer-wrapper #sitemap-contact-flex-container #contact {
   background-color: purple;
   color: black;
   color: white;
 }
-
-#copyright {
+#footer-wrapper #copyright {
   text-align: center;
   color: white;
 }/*# sourceMappingURL=main.css.map */
