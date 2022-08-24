@@ -312,6 +312,9 @@
   text-align: center;
   margin-bottom: 4%;
 }
+#footer-wrapper #sitemap-contact-flex-container #contact ul > li span {
+  font-weight: bold;
+}
 #footer-wrapper #sitemap-contact-flex-container #contact ul > li:first-of-type {
   margin-bottom: 5%;
 }

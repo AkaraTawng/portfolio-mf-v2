@@ -39,8 +39,13 @@
                 text-align: center;
                 margin-bottom: 4%;
             }
-            ul>li:first-of-type {
-                margin-bottom: 5%;
+            ul>li {
+                span {
+                    font-weight: bold;
+                }
+                &:first-of-type {
+                    margin-bottom: 5%;
+                }
             }
         }
     }
