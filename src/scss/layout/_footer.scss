@@ -3,6 +3,8 @@
     bottom: 0;
     width: 100%;
     background-color: map-get($colors, "primary");
+    // padding: 0 0 1rem 0;
+    z-index: -1;
 
     #sitemap-contact-flex-container {
         display: flex;
@@ -16,7 +18,7 @@
         }
         
         #sitemap {
-            background-color: green;
+            // background-color: green;
             color: black;
             color: white;
             text-align: center;
@@ -31,12 +33,11 @@
         }
         
         #contact {
-            background-color: purple;
-            color: black;
+            // background-color: purple;
             color: white;
+            text-align: center;
 
             h2 {
-                text-align: center;
                 margin-bottom: 4%;
             }
             ul>li {
@@ -53,5 +54,6 @@
     #copyright {
         text-align: center;
         color: white;
+        padding: 1rem 0 1rem 0;
     }
 }

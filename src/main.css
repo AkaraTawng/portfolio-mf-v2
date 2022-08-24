@@ -280,6 +280,7 @@
   bottom: 0;
   width: 100%;
   background-color: #02254b;
+  z-index: -1;
 }
 #footer-wrapper #sitemap-contact-flex-container {
   display: flex;
@@ -292,7 +293,6 @@
   list-style-type: none;
 }
 #footer-wrapper #sitemap-contact-flex-container #sitemap {
-  background-color: green;
   color: black;
   color: white;
   text-align: center;
@@ -304,12 +304,10 @@
   margin-bottom: 5%;
 }
 #footer-wrapper #sitemap-contact-flex-container #contact {
-  background-color: purple;
-  color: black;
   color: white;
+  text-align: center;
 }
 #footer-wrapper #sitemap-contact-flex-container #contact h2 {
-  text-align: center;
   margin-bottom: 4%;
 }
 #footer-wrapper #sitemap-contact-flex-container #contact ul > li span {
@@ -321,4 +319,5 @@
 #footer-wrapper #copyright {
   text-align: center;
   color: white;
+  padding: 1rem 0 1rem 0;
 }/*# sourceMappingURL=main.css.map */
