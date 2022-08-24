@@ -3,12 +3,15 @@
     bottom: 0;
     width: 100%;
     background-color: map-get($colors, "primary");
+
 }
 
 #sitemap-contact-flex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    height: 11rem;
 }
 
 #sitemap {
