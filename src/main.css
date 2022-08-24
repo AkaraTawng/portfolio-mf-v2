@@ -281,6 +281,12 @@
   width: 100%;
 }
 
+#sitemap-contact-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 #sitemap {
   background-color: green;
   color: black;
