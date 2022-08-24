@@ -304,6 +304,9 @@
   color: black;
   color: white;
 }
+#footer-wrapper #sitemap-contact-flex-container #contact ul > li:first-of-type {
+  margin-bottom: 5%;
+}
 #footer-wrapper #copyright {
   text-align: center;
   color: white;

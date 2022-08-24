@@ -29,6 +29,10 @@
             background-color: purple;
             color: black;
             color: white;
+
+            ul>li:first-of-type {
+                margin-bottom: 5%;
+            }
         }
     }
     
