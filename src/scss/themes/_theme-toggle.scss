@@ -3,13 +3,20 @@
     display: inline-block;
     width: 40px;
     height: 33px;
-    @include laptop {
-        position: absolute;
-        right: 2%;
-        top: 25%;
+        @include tablet {
+        height: 38px;           
         width: 50px;
-        height: 37px;
-    }
+        right: 3%;
+        top: 15px;
+        }
+        
+        @include laptop {
+            position: absolute;
+            right: 2%;
+            top: 25%;
+            width: 50px;
+            height: 37px;
+        }
     
     input {
         opacity: 0;
@@ -39,11 +46,16 @@
             background-color: map-get($colors, "secondary");
             transition: 0.4s;
             border-radius: 50%;
-            @include laptop {
+                @include tablet {
+                    height: 16px;
+                    width: 16px;
+                }
+            
+                @include laptop {
                 height: 15px;
                 width: 15px;
                 left: 2px;
-            }
+                }
         }
     }
 
@@ -51,6 +63,9 @@
         transform: translateX(18px);
         background-color: white;
         transition: 0.4s;
+        @include tablet {
+            transform: translateX(23px);
+        }
         @include laptop {
             transform: translateX(22px);
         }

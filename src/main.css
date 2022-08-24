@@ -90,6 +90,14 @@
   width: 40px;
   height: 33px;
 }
+@media (min-width: 768px) {
+  .toggle {
+    height: 38px;
+    width: 50px;
+    right: 3%;
+    top: 15px;
+  }
+}
 @media (min-width: 1280px) {
   .toggle {
     position: absolute;
@@ -127,6 +135,12 @@
   transition: 0.4s;
   border-radius: 50%;
 }
+@media (min-width: 768px) {
+  .toggle .slider::before {
+    height: 16px;
+    width: 16px;
+  }
+}
 @media (min-width: 1280px) {
   .toggle .slider::before {
     height: 15px;
@@ -138,6 +152,11 @@
   transform: translateX(18px);
   background-color: white;
   transition: 0.4s;
+}
+@media (min-width: 768px) {
+  .toggle input:checked + .slider::before {
+    transform: translateX(23px);
+  }
 }
 @media (min-width: 1280px) {
   .toggle input:checked + .slider::before {
