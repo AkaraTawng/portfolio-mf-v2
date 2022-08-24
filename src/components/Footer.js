@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 export default function Footer() {
     return <>
         <div id="footer-wrapper">
@@ -6,12 +6,12 @@ export default function Footer() {
                 <section id="sitemap">
                     <h2>Sitemap</h2>
                     <ul>
-                        <li>Home</li>
-                        <li>Projects</li>
-                        <li>Contact</li>
-                        <li>Resume</li>
-                        <li>LinkedIn</li>
-                        <li>GitHub</li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/projects">Projects</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/resume" target="_blank">Resume</Link></li>
+                        <li><Link to="/linkedin" target="_blank">Linkedin</Link></li>
+                        <li><Link to="/github" target="_blank">GitHub</Link></li>
                     </ul>
                 </section>
 
