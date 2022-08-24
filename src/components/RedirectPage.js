@@ -15,7 +15,7 @@ export default function RedirectPage(props) {
         } else if(matchGithub){
             window.location.replace("https://github.com/AkaraTawng");
         } else if(matchResume){
-            window.location.replace("https://drive.google.com/file/d/1YGBMA2wZENLY_R0WdpombJFRLtMMOg5p/view?usp=sharing");
+            window.location.replace("https://drive.google.com/file/d/1JjpN6mrlSZ6-aiS4vt0cAcYP7Bx0Jfpo/view?usp=sharing");
         }
     },[]);   
 }
