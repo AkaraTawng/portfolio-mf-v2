@@ -297,6 +297,9 @@
   color: white;
   text-align: center;
 }
+#footer-wrapper #sitemap-contact-flex-container #sitemap h2 {
+  margin-bottom: 10%;
+}
 #footer-wrapper #sitemap-contact-flex-container #sitemap ul > li {
   margin-bottom: 5%;
 }
