@@ -288,6 +288,9 @@
   align-items: center;
   height: 15rem;
 }
+#footer-wrapper #sitemap-contact-flex-container ul {
+  list-style-type: none;
+}
 #footer-wrapper #sitemap-contact-flex-container #sitemap {
   background-color: green;
   color: black;
