@@ -15,6 +15,13 @@
 
         ul {
             list-style-type: none;
+             
+        }
+
+        .footer-link {
+            &:visited {
+                color: white;
+            }
         }
         
         #sitemap {

@@ -292,6 +292,9 @@
 #footer-wrapper #sitemap-contact-flex-container ul {
   list-style-type: none;
 }
+#footer-wrapper #sitemap-contact-flex-container .footer-link:visited {
+  color: white;
+}
 #footer-wrapper #sitemap-contact-flex-container #sitemap {
   color: black;
   color: white;
