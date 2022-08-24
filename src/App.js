@@ -13,6 +13,7 @@ import Projects from "./components/Projects.js";
 import RedirectPage from "./components/RedirectPage.js";
 import Loader from "./components/Loader";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   return<>
       {isLoading ? <Loader/> : <Header/>}
+      {/* <Footer/> */}
         <Routes>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/" element={<Home/>} />
