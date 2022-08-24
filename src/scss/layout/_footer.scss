@@ -2,6 +2,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+    background-color: map-get($colors, "primary");
 }
 
 #sitemap-contact-flex-container {
