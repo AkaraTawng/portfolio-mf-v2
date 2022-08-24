@@ -287,19 +287,22 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 11rem;
+  height: 15rem;
 }
 
 #sitemap {
   background-color: green;
   color: black;
+  color: white;
 }
 
 #contact {
   background-color: purple;
   color: black;
+  color: white;
 }
 
 #copyright {
   text-align: center;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
