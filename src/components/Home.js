@@ -9,6 +9,7 @@ import { SiReact } from "react-icons/si";
 
 export default function Home(){
     return <>
+    <div id="home-wrapper">
         <section id="about-me-section">
             <h2>About Me</h2>
             <p>I'm a meticulous front-end web developer with good knowledge of modern web development practices who can translate any design into a kick-ass website.
@@ -28,5 +29,6 @@ export default function Home(){
                 </ul>
             </div>
         </section>
+    </div>
     </>;
 }
