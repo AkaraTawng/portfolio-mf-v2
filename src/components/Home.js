@@ -18,14 +18,14 @@ export default function Home(){
 
         <section id="skills-section">
             <h2>Skills</h2>
-            <div>
+            <div id="grid-container">
                 <ul>
-                    <li><AiFillHtml5 size={40}/></li>
-                    <li>< DiCss3  size={40}/></li>
-                    <li><SiJavascript  size={40} /></li>
-                    <li><DiSass  size={40}/></li>
-                    <li><FaGitAlt  size={40}/></li>
-                    <li><SiReact  size={40}/></li>
+                    <li><AiFillHtml5 size={50}/></li>
+                    <li>< DiCss3  size={50}/></li>
+                    <li><SiJavascript  size={45} /></li>
+                    <li><DiSass  size={50}/></li>
+                    <li><FaGitAlt  size={50}/></li>
+                    <li><SiReact  size={50}/></li>
                 </ul>
             </div>
         </section>
