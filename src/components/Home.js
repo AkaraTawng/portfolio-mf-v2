@@ -17,15 +17,15 @@ export default function Home(){
         </section>
 
         <section id="skills-section">
+            <h2>Skills</h2>
             <div>
-                <h2>Skills</h2>
                 <ul>
-                    <li><AiFillHtml5/></li>
-                    <li>< DiCss3/></li>
-                    <li><SiJavascript/></li>
-                    <li><DiSass/></li>
-                    <li><FaGitAlt/></li>
-                    <li><SiReact/></li>
+                    <li><AiFillHtml5 size={40}/></li>
+                    <li>< DiCss3  size={40}/></li>
+                    <li><SiJavascript  size={40} /></li>
+                    <li><DiSass  size={40}/></li>
+                    <li><FaGitAlt  size={40}/></li>
+                    <li><SiReact  size={40}/></li>
                 </ul>
             </div>
         </section>
