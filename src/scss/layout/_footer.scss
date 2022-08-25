@@ -1,9 +1,10 @@
 #footer-wrapper {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     background-color: map-get($colors, "primary");
     z-index: -1;
+    margin-top: 8rem;
 
     #sitemap-contact-flex-container {
         display: flex;
