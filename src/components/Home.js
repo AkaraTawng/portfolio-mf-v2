@@ -1,3 +1,12 @@
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { SiJavascript } from "react-icons/si";
+import { DiSass } from "react-icons/di";
+import { FaGitAlt } from "react-icons/fa";
+import { SiReact } from "react-icons/si";
+
+
+
 export default function Home(){
     return <>
         <section id="about-me-section">
@@ -8,13 +17,14 @@ export default function Home(){
 
         <section id="skills-section">
             <div>
+                <h2>Skills</h2>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><AiFillHtml5/></li>
+                    <li>< DiCss3/></li>
+                    <li><SiJavascript/></li>
+                    <li><DiSass/></li>
+                    <li><FaGitAlt/></li>
+                    <li><SiReact/></li>
                 </ul>
             </div>
         </section>
