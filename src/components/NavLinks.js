@@ -54,7 +54,7 @@ const NavLinks = (props) => {
                     animate={animateTo}
                     transition={{delay: 0.5}}
                     onClick={() => props.onCloseMobileMenu()}>
-                    <NavLink className="nav-link external-navlink" to="/github" target="_blank" rel="noreferrer">Github</NavLink>
+                    <NavLink className="nav-link external-navlink" to="/github" target="_blank" rel="noreferrer">GitHub</NavLink>
                 </motion.li>
             </ul>
     </>)
