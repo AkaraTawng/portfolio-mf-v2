@@ -3,7 +3,6 @@
     bottom: 0;
     width: 100%;
     background-color: map-get($colors, "primary");
-    // padding: 0 0 1rem 0;
     z-index: -1;
 
     #sitemap-contact-flex-container {
@@ -12,10 +11,17 @@
         justify-content: space-around;
         align-items: center;
         height: 20em;
+        @include tablet {
+            height: 30rem;
+        }
+        @include laptop {
+            flex-direction: row;
+            align-items: flex-start;
+            height: 20rem;
+        }
 
         ul {
             list-style-type: none;
-             
         }
 
         .footer-link {
@@ -37,10 +43,23 @@
             
             h2 {
                 margin-bottom: 10%;
+                @include tablet {
+                    font-size: 2rem;
+                }
+                @include laptop {
+                    font-size: 2.5rem;
+                    margin-top: 3rem;
+                }
             }
 
             ul>li {
                 margin-bottom: 5%;
+                @include tablet {
+                    font-size: 1.5rem;
+                }
+                @include laptop {
+                    font-size: 1.4rem;
+                }
             }
         }
         
@@ -50,6 +69,13 @@
 
             h2 {
                 margin-bottom: 4%;
+                @include tablet {
+                    font-size: 2rem;
+                }
+                @include laptop {
+                    font-size: 2.5rem;
+                    margin-top: 4rem;
+                }
             }
             ul>li {
                 span {
@@ -57,6 +83,12 @@
                 }
                 &:first-of-type {
                     margin-bottom: 5%;
+                }
+                @include tablet {
+                    font-size: 1.5rem;
+                }
+                @include laptop {
+                    font-size: 1.4rem;
                 }
             }
         }
@@ -66,5 +98,11 @@
         text-align: center;
         color: white;
         padding: 1rem 0 1rem 0;
+        @include tablet {
+            font-size: 1.4rem;
+        }
+        @include laptop {
+            font-size: 1.4rem;
+        }
     }
 }
