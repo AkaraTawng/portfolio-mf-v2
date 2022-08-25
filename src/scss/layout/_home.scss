@@ -53,6 +53,7 @@
         font-size: 2rem;
         text-align: center;
         margin-bottom: 4%;
+        color: white;
     }
 
     ul {
@@ -65,6 +66,11 @@
         li {
             // background-color: purple;
             justify-self: center;
+            color: white;
+            :hover {
+                color: map-get($colors, "secondary" );
+                transition: all 0.2s;
+            }
         }
     }
 }

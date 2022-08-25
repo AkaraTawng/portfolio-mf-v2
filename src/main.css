@@ -449,6 +449,7 @@
   font-size: 2rem;
   text-align: center;
   margin-bottom: 4%;
+  color: white;
 }
 #skills-section ul {
   list-style-type: none;
@@ -458,4 +459,9 @@
 }
 #skills-section ul li {
   justify-self: center;
+  color: white;
+}
+#skills-section ul li :hover {
+  color: #9c8321;
+  transition: all 0.2s;
 }/*# sourceMappingURL=main.css.map */
