@@ -178,12 +178,13 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #02254b;
   width: 100vw;
-  height: 86vh;
+  height: 36vh;
   padding-top: 5%;
   padding-bottom: 5%;
   border-top: 2px solid #9c8321;
+  z-index: 2;
 }
 #nav-links-container li {
   list-style-type: none;
