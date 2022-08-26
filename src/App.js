@@ -21,7 +21,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   return<>
       {isLoading ? <Loader/> : <Header/>}
-        <Footer/>
+        
         <Routes>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/" element={<Home/>} />
@@ -30,5 +30,6 @@ export default function App() {
           <Route path="/linkedin" element={<RedirectPage setIsLoading={setIsLoading}/>} />
           <Route path="/github" element={<RedirectPage setIsLoading={setIsLoading}/>} />
         </Routes>
+      <Footer/>
 </>
 };

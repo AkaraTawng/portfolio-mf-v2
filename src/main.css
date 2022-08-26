@@ -276,11 +276,12 @@
 }
 
 #footer-wrapper {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   background-color: #02254b;
-  z-index: -1;
+  z-index: 0;
+  margin-top: 8rem;
 }
 #footer-wrapper #sitemap-contact-flex-container {
   display: flex;
@@ -304,16 +305,17 @@
 #footer-wrapper #sitemap-contact-flex-container ul {
   list-style-type: none;
 }
-#footer-wrapper #sitemap-contact-flex-container .footer-link {
+#footer-wrapper #sitemap-contact-flex-container ul .footer-link {
+  cursor: pointer;
   text-decoration: none;
 }
-#footer-wrapper #sitemap-contact-flex-container .footer-link:hover {
+#footer-wrapper #sitemap-contact-flex-container ul .footer-link:hover {
   color: #9c8321 !important;
 }
-#footer-wrapper #sitemap-contact-flex-container .footer-link:active {
+#footer-wrapper #sitemap-contact-flex-container ul .footer-link:active {
   color: white !important;
 }
-#footer-wrapper #sitemap-contact-flex-container .footer-link:visited {
+#footer-wrapper #sitemap-contact-flex-container ul .footer-link:visited {
   color: white;
 }
 #footer-wrapper #sitemap-contact-flex-container #sitemap {
@@ -395,4 +397,73 @@
   #footer-wrapper #copyright {
     font-size: 1.4rem;
   }
+}
+
+#home-wrapper {
+  margin-top: 6rem;
+}
+
+#about-me-section {
+  margin-bottom: 6.5rem;
+  padding: 0 1.5rem;
+}
+#about-me-section h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 2%;
+}
+#about-me-section p {
+  text-align: center;
+}
+
+#skills-section {
+  background-color: #02254b;
+  height: 13rem;
+  position: relative;
+}
+#skills-section ::before {
+  content: "";
+  position: absolute;
+  background-color: #02254b;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform-origin: top left;
+  transform: skewY(-10deg);
+  z-index: -1;
+  border-top: 1px solid black;
+}
+#skills-section ::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #02254b;
+  transform-origin: bottom right;
+  transform: skewY(-10deg);
+  z-index: -1;
+  border-bottom: 1px solid black;
+}
+#skills-section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 5.5%;
+  color: white;
+}
+#skills-section ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30%;
+}
+#skills-section ul li {
+  justify-self: center;
+  color: white;
+}
+#skills-section ul li :hover {
+  color: #9c8321;
+  transition: all 0.2s;
 }/*# sourceMappingURL=main.css.map */
