@@ -3,7 +3,12 @@
     bottom: 0;
     width: 100%;
     background-color: map-get($colors, "primary");
+<<<<<<< Updated upstream
     z-index: -1;
+=======
+    z-index: 0;
+    margin-top: 8rem;
+>>>>>>> Stashed changes
 
     #sitemap-contact-flex-container {
         display: flex;
@@ -22,21 +27,20 @@
 
         ul {
             list-style-type: none;
+            .footer-link {
+                cursor: pointer;
+                text-decoration: none;
+                &:hover {
+                    color: map-get($colors, "secondary") !important;
+                }
+                &:active {
+                    color: white !important;
+                }
+                &:visited {
+                    color: white;
+                }
+            }
         }
-
-        .footer-link {
-            text-decoration: none;
-            &:hover {
-                color: map-get($colors, "secondary") !important;
-            }
-            &:active {
-                color: white !important;
-            }
-            &:visited {
-                color: white;
-            }
-        }
-        
         #sitemap {
             color: white;
             text-align: center;
