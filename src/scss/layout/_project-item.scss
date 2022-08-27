@@ -1,0 +1,26 @@
+#project-item-container-outer {
+    margin: 25% 5% 0 5%;
+
+    h2 {
+        color: black;
+        text-align: center;
+    }
+     
+    a {
+        color: black;
+    }
+    #project-item-container-inner {
+        background-color: map-get($colors, "primary");
+        height: 14rem;
+        width: 20rem;
+   
+
+        img{
+            height: 12.5rem;
+            width: 18rem;
+            margin-left: 4.6%;
+            margin-top: 3.5%;
+            border: 2px solid map-get($colors, "secondary");
+        }
+    }
+}
