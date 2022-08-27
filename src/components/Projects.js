@@ -9,6 +9,6 @@ export default function Projects(){
         
         <ProjectItem title={"Exercise Survery Form"} image={require("../assets/img/survey.png")} repo={"#"} site={"#"}/>
         
-        <ProjectItem title={"Income Tracker"} image={require("../assets/img/incomeblur2.png")} repo={"#"} site={"#"}/>
+        <ProjectItem title={"Income Tracker"} image={require("../assets/img/incomeblur4.png")} repo={"#"} site={"#"}/>
     </>;
 }
