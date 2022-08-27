@@ -6,5 +6,7 @@ export default function Projects(){
         <ProjectItem title={"Man With a Spade"} image={require("../assets/img/mws.png")} repo={"#"} site={"#"}/>
         
         <ProjectItem title={"Cactus Connoiseur"} image={require("../assets/img/cactus.png")} repo={"#"} site={"#"}/>
+        
+        <ProjectItem title={"Exercise Survery Form"} image={require("../assets/img/survey.png")} repo={"#"} site={"#"}/>
     </>;
 }
