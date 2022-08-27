@@ -7,8 +7,10 @@ export default function ProjectItem(props) {
             <img src={props.image} />
         </div>
 
-        <div id="view-repo"><a href={props.repo}>View Repo</a></div>
-        <div id="view-site"><a href={props.site}>View Site</a></div>
+        <div id="links-flex-container">
+            <div id="view-repo"><a href={props.repo}>View Repo</a></div>
+            <div id="view-site"><a href={props.site}>View Site</a></div>
+        </div>
     </div>
     </>;
 }
