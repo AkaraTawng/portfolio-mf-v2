@@ -7,8 +7,8 @@ export default function ProjectItem(props) {
             <img src={props.image} />
         </div>
 
-        <div><a href={props.repo}>View Repo</a></div>
-        <div><a href={props.site}>View Site</a></div>
+        <div id="view-repo"><a href={props.repo}>View Repo</a></div>
+        <div id="view-site"><a href={props.site}>View Site</a></div>
     </div>
     </>;
 }
