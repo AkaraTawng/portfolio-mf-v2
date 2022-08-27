@@ -1,5 +1,6 @@
 #project-item-container-outer {
     margin: 25% 5% 0 5%;
+
     
     h2 {
         color: black;
@@ -20,7 +21,6 @@
 
     #links-flex-container {
         display: flex;
-        // justify-content: space-around;
         margin-top: 4rem;
     }
     
@@ -36,14 +36,7 @@
             border-bottom: 8px solid map-get($colors, "secondary");
             transition: 0.1s ease-out;
         }
-        // a {
-        //     &:hover {
-        //         color: map-get($colors, "secondary");
-        //     }
-        //     &:active {
-        //         color: white;
-        //     }
-        }
+       
         ::after{
             content: "";
             position: absolute;
@@ -56,10 +49,6 @@
             transform: skewY(-10deg);
             z-index: -1;
         }
-    }
-
-    #view-site-wrapper:hover {
-      
     }
 
     #view-site {
@@ -77,15 +66,7 @@
             border-bottom: 8px solid map-get($colors, "secondary");
             transition: 0.1s ease-out;
         }
-        // a {
-        //     &:hover {
-        //         color: map-get($colors, "secondary");
-        //         transition: 0.1s ease-out;
-        //     }
-        //     &:active {
-        //         color: white;
-        //     }
-        }
+       
         
         ::after{
             content: "";
@@ -122,10 +103,10 @@
    
 
         img{
-            height: 12.5rem;
-            width: 18rem;
-            margin-left: 4.6%;
-            margin-top: 3.5%;
+            height: 12.9rem;
+            width: 19rem;
+            margin-left: 2%;
+            margin-top: 2%;
             border: 2px solid map-get($colors, "secondary");
         }
     }
