@@ -10,6 +10,12 @@
         color: rgb(255, 255, 255);
         font-size: 1.3rem;
         text-decoration: none;
+        &:hover {
+            color: map-get($colors, "secondary");
+        }
+        &:active {
+            color: white;
+        }
     }
 
     #links-flex-container {
@@ -26,13 +32,17 @@
         height: 2rem;
         text-align: center;
         border-bottom: 4px solid map-get($colors, "secondary");
-        a {
-            &:hover {
-                color: map-get($colors, "secondary");
-            }
-            &:active {
-                color: white;
-            }
+        &:hover {
+            border-bottom: 8px solid map-get($colors, "secondary");
+            transition: 0.1s ease-out;
+        }
+        // a {
+        //     &:hover {
+        //         color: map-get($colors, "secondary");
+        //     }
+        //     &:active {
+        //         color: white;
+        //     }
         }
         ::after{
             content: "";
@@ -48,6 +58,10 @@
         }
     }
 
+    #view-site-wrapper:hover {
+      
+    }
+
     #view-site {
         background-color: map-get($colors, "primary");
         position: relative;
@@ -59,14 +73,20 @@
         padding-top: 1.6rem;
         padding-bottom: 0.5rem;
         border-bottom: 4px solid map-get($colors, "secondary");
-        a {
-            &:hover {
-                color: map-get($colors, "secondary");
-            }
-            &:active {
-                color: white;
-            }
+        &:hover {
+            border-bottom: 8px solid map-get($colors, "secondary");
+            transition: 0.1s ease-out;
         }
+        // a {
+        //     &:hover {
+        //         color: map-get($colors, "secondary");
+        //         transition: 0.1s ease-out;
+        //     }
+        //     &:active {
+        //         color: white;
+        //     }
+        }
+        
         ::after{
             content: "";
             position: absolute;

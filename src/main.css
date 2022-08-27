@@ -494,6 +494,10 @@
   text-align: center;
   border-bottom: 4px solid #9c8321;
 }
+#project-item-container-outer #view-repo:hover {
+  border-bottom: 8px solid #9c8321;
+  transition: 0.1s ease-out;
+}
 #project-item-container-outer #view-repo a:hover {
   color: #9c8321;
 }
@@ -524,8 +528,13 @@
   padding-bottom: 0.5rem;
   border-bottom: 4px solid #9c8321;
 }
+#project-item-container-outer #view-site:hover {
+  border-bottom: 8px solid #9c8321;
+  transition: 0.1s ease-out;
+}
 #project-item-container-outer #view-site a:hover {
   color: #9c8321;
+  transition: 0.1s ease-out;
 }
 #project-item-container-outer #view-site a:active {
   color: white;
