@@ -477,12 +477,64 @@
   text-align: center;
 }
 #project-item-container-outer a {
-  color: black;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+#project-item-container-outer #links-flex-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+#project-item-container-outer #view-repo {
+  background-color: green;
+}
+#project-item-container-outer #view-site {
+  background-color: #02254b;
+  position: relative;
+  height: 2rem;
+  width: 9rem;
+  margin-top: -2rem;
+  margin-right: -1.6rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+#project-item-container-outer #view-site a:hover {
+  color: #9c8321;
+}
+#project-item-container-outer #view-site a:active {
+  color: white;
+}
+#project-item-container-outer #view-site ::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #02254b;
+  transform-origin: top left;
+  transform: skewY(-10deg);
+  z-index: -1;
 }
 #project-item-container-outer #project-item-container-inner {
   background-color: #02254b;
   height: 14rem;
   width: 20rem;
+  position: relative;
+}
+#project-item-container-outer #project-item-container-inner::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #02254b;
+  transform-origin: bottom right;
+  transform: skewY(-10deg);
+  z-index: -1;
 }
 #project-item-container-outer #project-item-container-inner img {
   height: 12.5rem;
