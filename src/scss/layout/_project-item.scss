@@ -14,24 +14,51 @@
 
     #links-flex-container {
         display: flex;
-        justify-content: space-around;
+        // justify-content: space-around;
         margin-top: 4rem;
     }
     
     #view-repo {
-        background-color: green;
+        background-color:  map-get($colors, "primary");
+        position: relative;
+        margin-top: -0.3rem;
+        width: 10rem;
+        height: 2rem;
+        text-align: center;
+        border-bottom: 4px solid map-get($colors, "secondary");
+        a {
+            &:hover {
+                color: map-get($colors, "secondary");
+            }
+            &:active {
+                color: white;
+            }
+        }
+        ::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: map-get($colors, "primary");
+            transform-origin: top left;
+            transform: skewY(-10deg);
+            z-index: -1;
+        }
     }
 
     #view-site {
         background-color: map-get($colors, "primary");
         position: relative;
-        height: 2rem;
-        width: 9rem;
-        margin-top: -2rem;
-        margin-right: -1.6rem;
+        height: 1.7rem;
+        width: 9.8rem;
+        margin-top: -2.1rem;
+        margin-left: 0.2rem;
         text-align: center;
-        padding-top: 0.5rem;
+        padding-top: 1.6rem;
         padding-bottom: 0.5rem;
+        border-bottom: 4px solid map-get($colors, "secondary");
         a {
             &:hover {
                 color: map-get($colors, "secondary");
