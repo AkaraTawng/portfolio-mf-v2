@@ -1,3 +1,6 @@
+import ProjectItem from "./ProjectItem";
 export default function Projects(){
-    return <div>Projects</div>;
+    return <>
+        <ProjectItem title={"Calculator"} image={require("../assets/office.jpg")} repo={"#"} site={"#"}/>
+    </>;
 }
