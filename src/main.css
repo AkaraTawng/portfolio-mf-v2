@@ -583,7 +583,7 @@
   #project-item-container-outer #project-item-container-inner {
     height: 25rem;
     width: 35rem;
-    margin-bottom: -3%;
+    margin-bottom: -20px;
   }
 }
 #project-item-container-outer #project-item-container-inner::after {
