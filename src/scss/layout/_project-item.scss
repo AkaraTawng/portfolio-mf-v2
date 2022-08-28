@@ -1,15 +1,25 @@
 #project-item-container-outer {
     margin: 25% 5% 0 5%;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
     h2 {
         color: black;
         text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.7rem;
+        @include tablet {
+            font-size: 2.8rem;
+        }
     }
      
     a {
         color: rgb(255, 255, 255);
         font-size: 1.3rem;
         text-decoration: none;
+        @include tablet {
+            font-size: 1.6rem;
+        }
         &:hover {
             color: map-get($colors, "secondary");
         }
@@ -20,7 +30,6 @@
 
     #links-flex-container {
         display: flex;
-        // justify-content: space-around;
         margin-top: 4rem;
     }
     
@@ -32,18 +41,16 @@
         height: 2rem;
         text-align: center;
         border-bottom: 4px solid map-get($colors, "secondary");
+        @include tablet {
+            margin-top: 3.7rem;
+            width: 19rem;
+            height: 3.4rem;
+        }
         &:hover {
             border-bottom: 8px solid map-get($colors, "secondary");
             transition: 0.1s ease-out;
         }
-        // a {
-        //     &:hover {
-        //         color: map-get($colors, "secondary");
-        //     }
-        //     &:active {
-        //         color: white;
-        //     }
-        }
+       
         ::after{
             content: "";
             position: absolute;
@@ -58,10 +65,6 @@
         }
     }
 
-    #view-site-wrapper:hover {
-      
-    }
-
     #view-site {
         background-color: map-get($colors, "primary");
         position: relative;
@@ -73,20 +76,15 @@
         padding-top: 1.6rem;
         padding-bottom: 0.5rem;
         border-bottom: 4px solid map-get($colors, "secondary");
+        @include tablet {
+            width: 15.8rem;
+            height: 4.6rem;
+            margin-top: 1%;
+        }
         &:hover {
             border-bottom: 8px solid map-get($colors, "secondary");
             transition: 0.1s ease-out;
-        }
-        // a {
-        //     &:hover {
-        //         color: map-get($colors, "secondary");
-        //         transition: 0.1s ease-out;
-        //     }
-        //     &:active {
-        //         color: white;
-        //     }
-        }
-        
+        } 
         ::after{
             content: "";
             position: absolute;
@@ -105,6 +103,11 @@
         background-color: map-get($colors, "primary");
         height: 14rem;
         width: 20rem;
+        @include tablet {
+            height: 25rem;
+            width: 35rem;
+            margin-bottom: -20px;
+        }
         position: relative;
 
         &::after{
@@ -122,11 +125,30 @@
    
 
         img{
-            height: 12.5rem;
-            width: 18rem;
-            margin-left: 4.6%;
-            margin-top: 3.5%;
+            height: 12.9rem;
+            width: 19rem;
+            margin-left: 2%;
+            margin-top: 2%;
             border: 2px solid map-get($colors, "secondary");
+            @include tablet {
+                height: 23.5rem;
+                width: 33.5rem;
+            }
         }
+    }
+}
+
+#project-item-grid-container {
+    @include laptop{
+        display: grid;
+        margin-bottom: -9rem;
+    .cl{grid-area: cl;}
+    .mws{grid-area: mws;}
+    .cc{grid-area:cc;}
+    .sf{grid-area: sf;}
+    grid-template-areas:
+        "cl mws"
+        "cc sf"
+        ;    
     }
 }
