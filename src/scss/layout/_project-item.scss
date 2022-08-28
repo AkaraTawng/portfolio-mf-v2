@@ -9,12 +9,18 @@
         text-align: center;
         margin-bottom: 1rem;
         font-size: 1.7rem;
+        @include tablet {
+            font-size: 2.8rem;
+        }
     }
      
     a {
         color: rgb(255, 255, 255);
         font-size: 1.3rem;
         text-decoration: none;
+        @include tablet {
+            font-size: 1.6rem;
+        }
         &:hover {
             color: map-get($colors, "secondary");
         }
@@ -36,6 +42,11 @@
         height: 2rem;
         text-align: center;
         border-bottom: 4px solid map-get($colors, "secondary");
+        @include tablet {
+            margin-top: 3.7rem;
+            width: 19rem;
+            height: 3.4rem;
+        }
         &:hover {
             border-bottom: 8px solid map-get($colors, "secondary");
             transition: 0.1s ease-out;
@@ -66,12 +77,15 @@
         padding-top: 1.6rem;
         padding-bottom: 0.5rem;
         border-bottom: 4px solid map-get($colors, "secondary");
+        @include tablet {
+            width: 15.8rem;
+            height: 4.6rem;
+            margin-top: 1%;
+        }
         &:hover {
             border-bottom: 8px solid map-get($colors, "secondary");
             transition: 0.1s ease-out;
-        }
-       
-        
+        } 
         ::after{
             content: "";
             position: absolute;
@@ -90,6 +104,11 @@
         background-color: map-get($colors, "primary");
         height: 14rem;
         width: 20rem;
+        @include tablet {
+            height: 25rem;
+            width: 35rem;
+            margin-bottom: -3%;
+        }
         position: relative;
 
         &::after{
@@ -112,6 +131,10 @@
             margin-left: 2%;
             margin-top: 2%;
             border: 2px solid map-get($colors, "secondary");
+            @include tablet {
+                height: 23.5rem;
+                width: 33.5rem;
+            }
         }
     }
 }
