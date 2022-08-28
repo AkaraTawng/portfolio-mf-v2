@@ -8,8 +8,8 @@ export default function ProjectItem(props) {
         </div>
 
         <div id="links-flex-container">
-            <div id="view-repo"><a href={props.repo}>View Repo</a></div>
-            <div id="view-site"><a href={props.site}>View Site</a></div>
+            <div id="view-repo"><a href={props.repo}>{props.viewrepo ? props.viewrepo : "View Repo"}</a></div>
+            <div id="view-site"><a href={props.site}>{props.viewsite ? props.viewsite : "View Site" }</a></div>
         </div>
     </div>
     </>;
