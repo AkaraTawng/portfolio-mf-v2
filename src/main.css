@@ -610,4 +610,24 @@
     height: 23.5rem;
     width: 33.5rem;
   }
+}
+
+@media (min-width: 1280px) {
+  #project-item-grid-container {
+    display: grid;
+    margin-bottom: -9rem;
+    grid-template-areas: "cl mws" "cc sf";
+  }
+  #project-item-grid-container .cl {
+    grid-area: cl;
+  }
+  #project-item-grid-container .mws {
+    grid-area: mws;
+  }
+  #project-item-grid-container .cc {
+    grid-area: cc;
+  }
+  #project-item-grid-container .sf {
+    grid-area: sf;
+  }
 }/*# sourceMappingURL=main.css.map */

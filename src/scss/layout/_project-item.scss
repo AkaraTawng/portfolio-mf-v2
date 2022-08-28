@@ -2,8 +2,7 @@
     margin: 25% 5% 0 5%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;  
     h2 {
         color: black;
         text-align: center;
@@ -136,5 +135,20 @@
                 width: 33.5rem;
             }
         }
+    }
+}
+
+#project-item-grid-container {
+    @include laptop{
+        display: grid;
+        margin-bottom: -9rem;
+    .cl{grid-area: cl;}
+    .mws{grid-area: mws;}
+    .cc{grid-area:cc;}
+    .sf{grid-area: sf;}
+    grid-template-areas:
+        "cl mws"
+        "cc sf"
+        ;    
     }
 }
