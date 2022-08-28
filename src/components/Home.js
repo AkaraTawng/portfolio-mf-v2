@@ -4,6 +4,8 @@ import { SiJavascript } from "react-icons/si";
 import { DiSass } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa";
 import { SiReact } from "react-icons/si";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
 
 
 
@@ -20,7 +22,9 @@ export default function Home(){
             <h2>Skills</h2>
             <div id="grid-container">
                 <ul>
-                    <li><AiFillHtml5 size="4rem"/></li>
+                    <Tippy content="HTML/HTML5">
+                        <li><AiFillHtml5 size="4rem"/></li>
+                    </Tippy>
                     <li>< DiCss3 size="4rem"/></li>
                     <li><SiJavascript  size="3.5rem"/></li>
                     <li><DiSass  size="4rem"/></li>
