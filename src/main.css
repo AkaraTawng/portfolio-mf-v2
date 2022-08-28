@@ -284,6 +284,11 @@
   z-index: 0;
   margin-top: 9rem;
 }
+@media (min-width: 768px) {
+  #footer-wrapper {
+    margin-top: 15rem;
+  }
+}
 #footer-wrapper #sitemap-contact-flex-container {
   display: flex;
   flex-direction: column;
@@ -410,19 +415,45 @@
   padding: 0 1.5rem;
   height: 8rem;
 }
+@media (min-width: 768px) {
+  #about-me-section {
+    height: 14rem;
+    margin-top: 12rem;
+  }
+}
 #about-me-section h2 {
   font-size: 1.8rem;
   text-align: center;
   margin-bottom: 2%;
 }
+@media (min-width: 768px) {
+  #about-me-section h2 {
+    font-size: 2.2rem;
+  }
+}
 #about-me-section p {
   text-align: center;
+}
+@media (min-width: 768px) {
+  #about-me-section p {
+    font-size: 1.4rem;
+  }
 }
 
 #skills-section {
   background-color: #02254b;
-  height: 13rem;
+  height: 16rem;
   position: relative;
+}
+@media (min-width: 768px) {
+  #skills-section {
+    height: 17rem;
+  }
+}
+@media (min-width: 1280px) {
+  #skills-section {
+    height: 20rem;
+  }
 }
 #skills-section ::before {
   content: "";
@@ -437,6 +468,11 @@
   z-index: -1;
   border-top: 1px solid black;
 }
+@media (min-width: 1280px) {
+  #skills-section ::before {
+    transform: skewY(-6deg);
+  }
+}
 #skills-section ::after {
   position: absolute;
   content: "";
@@ -448,6 +484,11 @@
   transform-origin: bottom right;
   transform: skewY(-10deg);
   z-index: -1;
+}
+@media (min-width: 1280px) {
+  #skills-section ::after {
+    transform: skewY(-6deg);
+  }
 }
 #skills-section h2 {
   font-size: 2rem;
