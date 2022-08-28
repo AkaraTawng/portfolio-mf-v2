@@ -6,6 +6,7 @@ import { FaGitAlt } from "react-icons/fa";
 import { SiReact } from "react-icons/si";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
+import Tooltip from "./Tooltip";
 
 
 
