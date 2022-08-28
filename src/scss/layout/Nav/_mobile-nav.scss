@@ -4,12 +4,14 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.9);
+    // background-color: rgba(0, 0, 0, 1);
+    background-color: map-get($colors, "primary");
     width: 100vw;
-    height: 100vh;
+    height: 47vh;
     padding-top: 5%;
     padding-bottom: 5%;
     border-top: 2px solid map-get($colors, "secondary");
+    z-index: 2;
     
     li{
         list-style-type: none;
