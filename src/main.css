@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Maven+Pro&family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Shadows+Into+Light&display=swap");
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Maven+Pro&family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Shadows+Into+Light&display=swap");
 #nav-placeholder {
@@ -20,21 +19,18 @@
   color: #9c8321;
 }
 
-=======
->>>>>>> dev
 #header-wrapper {
   height: 14rem;
   background-color: #02254b;
   position: relative;
 }
-<<<<<<< HEAD
-=======
+
 @media (min-width: 1280px) {
   #header-wrapper {
     height: 20rem;
   }
 }
->>>>>>> dev
+
 #header-wrapper::after {
   position: absolute;
   content: "";
@@ -47,14 +43,13 @@
   transform: skewY(-10deg);
   z-index: -1;
 }
-<<<<<<< HEAD
-=======
+
 @media (min-width: 1280px) {
   #header-wrapper::after {
     transform: skewY(-6deg);
   }
 }
->>>>>>> dev
+
 #header-wrapper #nav-theme-flex-container {
   width: 100%;
   display: flex;
@@ -69,7 +64,6 @@
   margin-left: 2rem;
   margin-right: 2.5rem;
 }
-<<<<<<< HEAD
 #header-title-subtitle-container #header-title {
   color: rgb(255, 255, 241);
   letter-spacing: 1.2px;
@@ -79,7 +73,6 @@
   margin-bottom: 1rem;
   text-align: center;
 }
-=======
 @media (min-width: 768px) {
   #header-title-subtitle-container h2 {
     font-size: 2rem;
@@ -108,7 +101,6 @@
     font-size: 3rem;
   }
 }
->>>>>>> dev
 
 #theme-placeholder {
   color: white;
@@ -122,8 +114,6 @@
 * {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-=======
 }
 
 .toggle {
@@ -719,5 +709,4 @@
   #project-item-grid-container .sf {
     grid-area: sf;
   }
->>>>>>> dev
-}/*# sourceMappingURL=main.css.map */
+}
