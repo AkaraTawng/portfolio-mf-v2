@@ -7,6 +7,10 @@
     margin-top: 7rem;
     padding: 0 1.5rem;
     height: 8rem;
+    @include tablet {
+        height: 12rem;
+        margin-top: 11rem;
+    }
     h2{
         font-size: 1.8rem;
         text-align: center;
@@ -22,6 +26,12 @@
     background-color: map-get($colors, "primary");
     height: 13rem;
     position: relative;
+    @include tablet {
+        height: 14rem;
+    }
+    @include laptop {
+        height: 16rem;
+    }
 
     ::before {
         content: "";
@@ -35,6 +45,9 @@
         transform: skewY(-10deg);
         z-index: -1;
         border-top: 1px solid black;
+        @include laptop {
+            transform: skewY(-6deg);
+        }
     }
 
     ::after{
@@ -48,6 +61,9 @@
         transform-origin: bottom right;
         transform: skewY(-10deg);
         z-index: -1;
+        @include laptop {
+            transform: skewY(-6deg);
+        }
     }
 
     h2 {

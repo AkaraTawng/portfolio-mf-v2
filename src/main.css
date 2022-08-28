@@ -415,6 +415,12 @@
   padding: 0 1.5rem;
   height: 8rem;
 }
+@media (min-width: 768px) {
+  #about-me-section {
+    height: 12rem;
+    margin-top: 11rem;
+  }
+}
 #about-me-section h2 {
   font-size: 1.8rem;
   text-align: center;
@@ -429,6 +435,16 @@
   height: 13rem;
   position: relative;
 }
+@media (min-width: 768px) {
+  #skills-section {
+    height: 14rem;
+  }
+}
+@media (min-width: 1280px) {
+  #skills-section {
+    height: 16rem;
+  }
+}
 #skills-section ::before {
   content: "";
   position: absolute;
@@ -442,6 +458,11 @@
   z-index: -1;
   border-top: 1px solid black;
 }
+@media (min-width: 1280px) {
+  #skills-section ::before {
+    transform: skewY(-6deg);
+  }
+}
 #skills-section ::after {
   position: absolute;
   content: "";
@@ -453,6 +474,11 @@
   transform-origin: bottom right;
   transform: skewY(-10deg);
   z-index: -1;
+}
+@media (min-width: 1280px) {
+  #skills-section ::after {
+    transform: skewY(-6deg);
+  }
 }
 #skills-section h2 {
   font-size: 2rem;
