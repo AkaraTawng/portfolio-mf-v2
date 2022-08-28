@@ -1,7 +1,5 @@
 import Nav from "./Nav.js";
 import Theme from "./Theme.js";
-import Tippy from "./@tippyjs/react";
-import "tippy.js/dist/tippy.css";
 
 /* test */
 import {useContext} from "react";
