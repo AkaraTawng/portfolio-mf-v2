@@ -17,6 +17,9 @@
     
         .nav-link{
             font-size: 1.2rem;
+            @include desktop {
+                font-size: 1.6rem;
+            }
         }
     }
 
