@@ -20,12 +20,12 @@ export default function Home(){
             <h2>Skills</h2>
             <div id="grid-container">
                 <ul>
-                    <li><AiFillHtml5 size={50}/></li>
-                    <li>< DiCss3  size={50}/></li>
-                    <li><SiJavascript  size={45} /></li>
-                    <li><DiSass  size={50}/></li>
-                    <li><FaGitAlt  size={50}/></li>
-                    <li><SiReact  size={50}/></li>
+                    <li><AiFillHtml5 size="4rem"/></li>
+                    <li>< DiCss3 size="4rem"/></li>
+                    <li><SiJavascript  size="3.5rem"/></li>
+                    <li><DiSass  size="4rem"/></li>
+                    <li><FaGitAlt  size="4rem"/></li>
+                    <li><SiReact  size="4rem"/></li>
                 </ul>
             </div>
         </section>
