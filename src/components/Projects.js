@@ -1,3 +1,4 @@
+import { MdLockClock } from "react-icons/md";
 import ProjectItem from "./ProjectItem";
 export default function Projects(){
     return <>
@@ -9,6 +10,6 @@ export default function Projects(){
         
         <ProjectItem title={"Exercise Survery Form"} image={require("../assets/img/survey.png")} repo={"#"} site={"#"}/>
         
-        <ProjectItem title={"Income Tracker"} image={require("../assets/img/incomeblur4.png")} repo={"#"} site={"#"}/>
+        <ProjectItem title={"Income Tracker"} image={require("../assets/img/incomeblur4.png")} repo={"#"} viewrepo={<MdLockClock/>} viewsite={<MdLockClock/>} site={"#"}/>
     </>;
 }
