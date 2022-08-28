@@ -421,6 +421,11 @@
     margin-top: 12rem;
   }
 }
+@media (min-width: 1280px) {
+  #about-me-section {
+    padding: 0 3rem;
+  }
+}
 #about-me-section h2 {
   font-size: 1.8rem;
   text-align: center;
@@ -442,6 +447,11 @@
 @media (min-width: 768px) {
   #about-me-section p {
     font-size: 1.4rem;
+  }
+}
+@media (min-width: 1280px) {
+  #about-me-section p {
+    font-size: 1.5rem;
   }
 }
 
