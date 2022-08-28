@@ -1,4 +1,4 @@
 
 export default function Tooltip(props) {
-    return <div>{props.content}</div>
+    return <div id="tooltip">{props.content}</div>
 }
