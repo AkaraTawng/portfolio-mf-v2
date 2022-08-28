@@ -1,0 +1,50 @@
+#nav-links-container {
+    /* mobile */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    // background-color: rgba(0, 0, 0, 1);
+    background-color: map-get($colors, "primary");
+    width: 100vw;
+    height: 47vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top: 2px solid map-get($colors, "secondary");
+    z-index: 2;
+    
+    li{
+        list-style-type: none;
+        // display: none;
+    }
+
+    .nav-link{
+        text-decoration: none;
+        color: white;
+        font-size: 1.4rem;
+        &:hover{ 
+            color: map-get($colors, "secondary");
+        }
+
+        &.external-navlink:active {
+            padding-bottom: 3%;
+            border-bottom: 1px solid white;
+        }
+        &.active{
+            padding-bottom: 3%;
+            border-bottom: 1px solid white;
+            color: map-get($colors, "secondary");
+        }
+    }
+}
+
+.mobile-nav {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    cursor: pointer;
+    @include laptop {
+        display: none;
+    }
+}

@@ -13,18 +13,23 @@ import Projects from "./components/Projects.js";
 import RedirectPage from "./components/RedirectPage.js";
 import Loader from "./components/Loader";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 
 export default function App() {
+  /* refactor loading state to context for resuse */
   const [isLoading, setIsLoading] = useState(false);
   return<>
-  {isLoading ? <Loader/> : <Header/>}
-    <Routes>
-      <Route path="/contact" element={<Contact/>}/>
-      <Route path="/home" element={<Home/>} />
-      <Route path="/projects" element={<Projects/>} />
-      <Route path="/resume" element={<RedirectPage/>} />
-      <Route path="/linkedin" element={<RedirectPage setIsLoading={setIsLoading}/>} />
-      <Route path="/github" element={<RedirectPage setIsLoading={setIsLoading}/>} />
-    </Routes>
+      {isLoading ? <Loader/> : <Header/>}
+        
+        <Routes>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/" element={<Home/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/resume" element={<RedirectPage setIsLoading={setIsLoading}/>} />
+          <Route path="/linkedin" element={<RedirectPage setIsLoading={setIsLoading}/>} />
+          <Route path="/github" element={<RedirectPage setIsLoading={setIsLoading}/>} />
+        </Routes>
+      <Footer/>
 </>
 };
