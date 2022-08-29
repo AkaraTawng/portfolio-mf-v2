@@ -1,0 +1,44 @@
+#tooltip {
+    background-color: white;
+    border-radius: 15px;
+    height: 3rem;
+    width: 8rem;
+    margin-bottom: 1rem;
+    position: relative;
+    border: 3.5px solid map-get($colors, "secondary");
+    @include tablet {
+        height: 4rem;
+        width: 10rem;
+    }
+    @include desktop {
+        width: 12rem;
+    }
+    
+    
+    &:before{
+        content: "";
+        background-color: rgb(255, 255, 255);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 45%;
+        transform: rotate(45deg);
+        margin-bottom: -0.7rem;
+    }
+    
+    #tooltip-text {
+        color: map-get($colors, "primary");
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 1rem;
+        font-weight: bold;
+        @include tablet {
+            font-size: 1.3rem;
+            padding-top: 1.2rem;
+        }
+        @include desktop {
+            font-size: 1.6rem;
+        }
+    }
+}
