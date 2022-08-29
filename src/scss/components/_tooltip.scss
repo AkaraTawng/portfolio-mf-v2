@@ -6,6 +6,7 @@
     margin-bottom: 1rem;
     position: relative;
     border: 3.5px solid map-get($colors, "secondary");
+    box-shadow: 9px 9px 11px rgba(0, 0, 0, 0.7);
     @include tablet {
         height: 4rem;
         width: 10rem;
