@@ -719,8 +719,8 @@
 #tooltip {
   background-color: white;
   border-radius: 15px;
-  height: 4rem;
-  width: 15rem;
+  height: 3rem;
+  width: 8rem;
   margin-bottom: 1rem;
   position: relative;
   border: 3.5px solid #9c8321;
@@ -738,7 +738,7 @@
 }
 #tooltip #tooltip-text {
   color: #02254b;
-  font-size: 1.8rem;
+  font-size: 1rem;
   text-align: center;
   padding-top: 1rem;
   font-weight: bold;
