@@ -723,6 +723,7 @@
   width: 15rem;
   margin-bottom: 1rem;
   position: relative;
+  border: 3.5px solid #9c8321;
 }
 #tooltip:before {
   content: "";

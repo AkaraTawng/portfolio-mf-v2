@@ -5,6 +5,7 @@
     width: 15rem;
     margin-bottom: 1rem;
     position: relative;
+    border: 3.5px solid map-get($colors, "secondary");
     
     &:before{
         content: "";
