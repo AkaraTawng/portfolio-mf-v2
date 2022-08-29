@@ -764,6 +764,7 @@
   margin-bottom: 1rem;
   position: relative;
   border: 3.5px solid #9c8321;
+  box-shadow: 9px 9px 11px rgba(0, 0, 0, 0.7);
 }
 @media (min-width: 768px) {
   #tooltip {
