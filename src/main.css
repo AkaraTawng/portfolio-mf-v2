@@ -725,6 +725,12 @@
   position: relative;
   border: 3.5px solid #9c8321;
 }
+@media (min-width: 768px) {
+  #tooltip {
+    height: 4rem;
+    width: 10rem;
+  }
+}
 #tooltip:before {
   content: "";
   background-color: rgb(255, 255, 255);
@@ -742,4 +748,10 @@
   text-align: center;
   padding-top: 1rem;
   font-weight: bold;
+}
+@media (min-width: 768px) {
+  #tooltip #tooltip-text {
+    font-size: 1.3rem;
+    padding-top: 1.2rem;
+  }
 }/*# sourceMappingURL=main.css.map */
