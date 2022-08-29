@@ -714,4 +714,31 @@
   #project-item-grid-container .sf {
     grid-area: sf;
   }
+}
+
+#tooltip {
+  background-color: white;
+  border-radius: 15px;
+  height: 4rem;
+  width: 15rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+#tooltip:before {
+  content: "";
+  background-color: rgb(255, 255, 255);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  transform: rotate(45deg);
+  margin-bottom: -0.7rem;
+}
+#tooltip #tooltip-text {
+  color: #02254b;
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
