@@ -5,8 +5,6 @@ import Theme from "./Theme.js";
 import {useContext} from "react";
 import {ThemeContext} from "./ThemeContext.js";
 
-
-
 export default function Header(){
     const context = useContext(ThemeContext);
     console.log("theme", context)
