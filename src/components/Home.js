@@ -5,7 +5,7 @@ import { DiSass } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa";
 import { SiReact } from "react-icons/si";
 import Tippy from "@tippyjs/react";
-import "tippy.js/dist/tippy.css";
+import Tooltip from "./Tooltip";
 
 
 
@@ -22,7 +22,7 @@ export default function Home(){
             <h2>Skills</h2>
             <div id="grid-container">
                 <ul>
-                    <Tippy content="HTML/HTML5">
+                    <Tippy content={<Tooltip content="HTML/HTML5"/>}>
                         <li><AiFillHtml5 size="4rem"/></li>
                     </Tippy>
                     <li>< DiCss3 size="4rem"/></li>
