@@ -1,11 +1,27 @@
-#linkedin {
-    fill: red;
-    width: 5rem;
-    height: 5rem;
+#social-icons-section {
+    #linkedin {
+        fill: red;
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    #github {
+        fill: orange;
+        width: 5rem;
+        height: 5rem;
+    }
 }
 
-#github {
-    fill: orange;
-    width: 5rem;
-    height: 5rem;
+#contact-section {
+    #email-icon {
+        fill: green;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    #phone-icon {
+        fill: cornflowerblue;
+        width: 5rem;
+        height: 5rem;
+    }
 }

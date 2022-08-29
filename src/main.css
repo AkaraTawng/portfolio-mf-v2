@@ -807,14 +807,24 @@
   }
 }
 
-#linkedin {
+#social-icons-section #linkedin {
   fill: red;
   width: 5rem;
   height: 5rem;
 }
-
-#github {
+#social-icons-section #github {
   fill: orange;
+  width: 5rem;
+  height: 5rem;
+}
+
+#contact-section #email-icon {
+  fill: green;
+  width: 5rem;
+  height: 5rem;
+}
+#contact-section #phone-icon {
+  fill: cornflowerblue;
   width: 5rem;
   height: 5rem;
 }/*# sourceMappingURL=main.css.map */
