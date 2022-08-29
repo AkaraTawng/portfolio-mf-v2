@@ -25,11 +25,26 @@ export default function Home(){
                     <Tippy content={<Tooltip content="HTML/HTML5"/>}>
                         <li><AiFillHtml5 size="4rem"/></li>
                     </Tippy>
+
+                    <Tippy content={<Tooltip content="CSS/CSS3"/>}>
                     <li>< DiCss3 size="4rem"/></li>
+                    </Tippy>
+
+                    <Tippy content={<Tooltip content="JavaScript"/>}>
                     <li><SiJavascript  size="3.5rem"/></li>
+                    </Tippy>
+
+                    <Tippy content={<Tooltip content="SCSS"/>}>
                     <li><DiSass  size="4rem"/></li>
+                    </Tippy>
+
+                    <Tippy content={<Tooltip content="Git/GitHub"/>}>
                     <li><FaGitAlt  size="4rem"/></li>
+                    </Tippy>
+
+                    <Tippy content={<Tooltip content="ReactJS"/>}>
                     <li><SiReact  size="4rem"/></li>
+                    </Tippy>
                 </ul>
             </div>
         </section>
