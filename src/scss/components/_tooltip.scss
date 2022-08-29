@@ -10,8 +10,8 @@
         height: 4rem;
         width: 10rem;
     }
-    @include laptop {
-
+    @include desktop {
+        width: 12rem;
     }
     
     
@@ -37,8 +37,8 @@
             font-size: 1.3rem;
             padding-top: 1.2rem;
         }
-        @include laptop {
-    
+        @include desktop {
+            font-size: 1.6rem;
         }
     }
 }
