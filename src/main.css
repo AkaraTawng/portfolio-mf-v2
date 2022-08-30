@@ -807,6 +807,9 @@
   }
 }
 
+#social-icons-section {
+  background-color: purple;
+}
 #social-icons-section ul {
   display: flex;
   flex-direction: row;
@@ -824,6 +827,22 @@
   height: 5rem;
 }
 
+#contact-section {
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+}
+#contact-section ul {
+  list-style-type: none;
+}
+#contact-section #email-ul {
+  display: flex;
+  align-items: center;
+}
+#contact-section #contact-ul {
+  display: flex;
+  align-items: center;
+}
 #contact-section #email-icon {
   fill: green;
   width: 5rem;
