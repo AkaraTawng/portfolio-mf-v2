@@ -1,6 +1,7 @@
 export default function Contact(){
     return <>
     <div id="contact-wrapper">
+        <h2>Get in touch:</h2>
         <section id="social-icons-section">
             <ul>
                 <a href="#"><li id="linkedin">
