@@ -20,7 +20,7 @@ export default function Contact(){
     </section> 
 
     <section id="contact-section">
-        <ul>
+        <ul id="email-ul">
             <li id="email-icon">
                 <svg 
                 xmlns="http://www.w3.org/2000/svg" 
@@ -33,7 +33,7 @@ export default function Contact(){
             </li>
         </ul>
 
-        <ul>
+        <ul id="contact-ul">
             <li id="phone-icon">
                 <svg 
                 xmlns="http://www.w3.org/2000/svg" 
