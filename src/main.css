@@ -863,9 +863,21 @@
   justify-content: space-around;
   height: 8rem;
 }
-#contact-section #email-ul li > p {
+#contact-section #email-ul li > a {
+  color: black;
+  text-decoration: none;
   font-size: 1.5rem;
   border-bottom: 1px solid #9c8321;
+}
+#contact-section #email-ul li > a:hover {
+  padding-bottom: 0.2rem;
+  border-bottom: 6px solid #9c8321;
+  color: #9c8321;
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+}
+#contact-section #email-ul li > a:active, #contact-section #email-ul li > a:visited {
+  color: black;
 }
 #contact-section #contact-ul {
   display: flex;
@@ -874,9 +886,21 @@
   justify-content: space-around;
   height: 8rem;
 }
-#contact-section #contact-ul li > p {
+#contact-section #contact-ul li > a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
   font-size: 1.5rem;
   border-bottom: 1px solid #9c8321;
+}
+#contact-section #contact-ul li > a:hover {
+  padding-bottom: 0.2rem;
+  border-bottom: 6px solid #9c8321;
+  color: #9c8321;
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+}
+#contact-section #contact-ul li > a:active, #contact-section #contact-ul li > a:visited {
+  color: black;
 }
 #contact-section #email-icon {
   fill: #02254b;
