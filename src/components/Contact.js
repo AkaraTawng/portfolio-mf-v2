@@ -31,7 +31,7 @@ export default function Contact(){
                     </svg>
                 </li>
                 <li>
-                    <p>c.r.chamberlain1997@gmail.com</p>
+                    <a id="email-link" href="mailto:c.r.chamberlain1997@gmail.com">c.r.chamberlain1997@gmail.com</a>
                 </li>
             </ul>
 
@@ -44,7 +44,7 @@ export default function Contact(){
                     </svg>
                 </li>
                 <li>
-                    <p>+856 020-983-09152</p>
+                    <a href="tel:+85602098309152">+856 020-983-09152</a>
                 </li>
             </ul>
         </section>
