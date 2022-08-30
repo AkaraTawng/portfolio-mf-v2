@@ -44,7 +44,7 @@ export default function Contact(){
                     </svg>
                 </li>
                 <li>
-                    +856 020-983-09152
+                    <p>+856 020-983-09152</p>
                 </li>
             </ul>
         </section>
