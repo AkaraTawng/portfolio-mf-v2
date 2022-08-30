@@ -879,10 +879,12 @@
   border-bottom: 1px solid #9c8321;
 }
 #contact-section #email-icon {
+  fill: #02254b;
   width: 5rem;
   height: 5rem;
 }
 #contact-section #phone-icon {
+  fill: #02254b;
   width: 5rem;
   height: 5rem;
 }/*# sourceMappingURL=main.css.map */

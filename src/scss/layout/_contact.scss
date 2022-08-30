@@ -82,11 +82,13 @@
     }
 
     #email-icon {
+        fill: map-get($colors, "primary");
         width: 5rem;
         height: 5rem;
     }
 
     #phone-icon {
+        fill: map-get($colors, "primary");
         width: 5rem;
         height: 5rem;
     }
