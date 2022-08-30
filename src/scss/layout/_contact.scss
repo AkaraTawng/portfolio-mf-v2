@@ -1,12 +1,18 @@
 #contact-wrapper {
     background-color: mediumseagreen;
-    height: 45rem;
-    margin-top: 20rem;
+    height: 65rem;
+    margin-top:10rem;
+
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
 }
 
 #social-icons-section {
     background-color: purple;
     height: 10rem;
+    margin-top: 3rem;
     ul {
         display: flex;
         flex-direction: row;
