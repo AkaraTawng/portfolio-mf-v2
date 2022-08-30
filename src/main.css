@@ -818,7 +818,7 @@
 }
 
 #social-icons-section {
-  height: 10rem;
+  height: 7rem;
   margin-top: 3rem;
 }
 #social-icons-section ul {
@@ -838,13 +838,13 @@
   box-shadow: 8px 8px 8px black;
 }
 #social-icons-section #linkedin {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 3.8rem;
+  height: 3.8rem;
   margin-top: -4%;
 }
 #social-icons-section #github {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 3.8rem;
+  height: 3.8rem;
 }
 
 #contact-section {
