@@ -808,7 +808,7 @@
 }
 
 #contact-wrapper {
-  height: 65rem;
+  height: 40rem;
   margin-top: 10rem;
   padding: 0 4%;
 }
@@ -828,17 +828,17 @@
   list-style-type: none;
 }
 #social-icons-section #linkedin {
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 #social-icons-section #github {
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 #contact-section {
   display: flex;
-  height: 20rem;
+  height: 30rem;
   flex-direction: column;
   justify-content: space-around;
 }
@@ -860,6 +860,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-around;
+  height: 8rem;
+}
+#contact-section #contact-ul li > p {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #9c8321;
 }
 #contact-section #email-icon {
   width: 5rem;
