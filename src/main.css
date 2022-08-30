@@ -807,8 +807,15 @@
   }
 }
 
+#contact-wrapper {
+  background-color: mediumseagreen;
+  height: 45rem;
+  margin-top: 20rem;
+}
+
 #social-icons-section {
   background-color: purple;
+  height: 10rem;
 }
 #social-icons-section ul {
   display: flex;
@@ -817,12 +824,10 @@
   list-style-type: none;
 }
 #social-icons-section #linkedin {
-  fill: red;
   width: 5rem;
   height: 5rem;
 }
 #social-icons-section #github {
-  fill: orange;
   width: 5rem;
   height: 5rem;
 }
@@ -830,6 +835,8 @@
 #contact-section {
   background-color: gray;
   display: flex;
+  height: 20rem;
+  flex-direction: column;
   justify-content: space-around;
 }
 #contact-section ul {
@@ -844,12 +851,10 @@
   align-items: center;
 }
 #contact-section #email-icon {
-  fill: green;
   width: 5rem;
   height: 5rem;
 }
 #contact-section #phone-icon {
-  fill: cornflowerblue;
   width: 5rem;
   height: 5rem;
 }/*# sourceMappingURL=main.css.map */
