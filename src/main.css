@@ -827,9 +827,20 @@
   justify-content: space-around;
   list-style-type: none;
 }
+#social-icons-section ul li {
+  margin-top: -4%;
+}
+#social-icons-section ul a {
+  fill: rgba(2, 37, 75, 0.7);
+}
+#social-icons-section ul a:hover {
+  fill: #02254b;
+  box-shadow: 8px 8px 8px black;
+}
 #social-icons-section #linkedin {
   width: 3.5rem;
   height: 3.5rem;
+  margin-top: -4%;
 }
 #social-icons-section #github {
   width: 3.5rem;
