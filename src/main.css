@@ -812,9 +812,20 @@
   margin-top: 10rem;
   padding: 0 4%;
 }
+@media (min-width: 768px) {
+  #contact-wrapper {
+    height: 15rem;
+    margin-top: 13rem;
+  }
+}
 #contact-wrapper h2 {
   font-size: 3rem;
   text-align: center;
+}
+@media (min-width: 1920px) {
+  #contact-wrapper h2 {
+    font-size: 4rem;
+  }
 }
 
 #social-icons-section {
@@ -827,6 +838,21 @@
   justify-content: space-around;
   list-style-type: none;
 }
+@media (min-width: 768px) {
+  #social-icons-section ul {
+    margin-left: 2.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  #social-icons-section ul {
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1920px) {
+  #social-icons-section ul {
+    margin-left: 7rem;
+  }
+}
 #social-icons-section ul li {
   margin-top: -4%;
 }
@@ -836,7 +862,20 @@
 #social-icons-section #linkedin {
   width: 3.8rem;
   height: 3.8rem;
-  margin-top: -4%;
+}
+@media (min-width: 1280px) {
+  #social-icons-section #linkedin {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 4rem;
+  }
+}
+@media (min-width: 1920px) {
+  #social-icons-section #linkedin {
+    width: 7rem;
+    height: 7rem;
+    margin-right: 8rem;
+  }
 }
 #social-icons-section #svg:hover {
   fill: #02254b;
@@ -849,12 +888,43 @@
   width: 3.8rem;
   height: 3.8rem;
 }
+@media (min-width: 1280px) {
+  #social-icons-section #github {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+@media (min-width: 1920px) {
+  #social-icons-section #github {
+    width: 7rem;
+    height: 7rem;
+    margin-right: 4rem;
+  }
+}
 
 #contact-section {
   display: flex;
   height: 30rem;
   flex-direction: column;
   justify-content: space-around;
+}
+@media (min-width: 768px) {
+  #contact-section {
+    flex-direction: row;
+    height: 10rem;
+  }
+}
+@media (min-width: 1280px) {
+  #contact-section {
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1920px) {
+  #contact-section {
+    margin-top: 4rem;
+  }
 }
 #contact-section ul {
   list-style-type: none;
@@ -910,8 +980,32 @@
   width: 5rem;
   height: 5rem;
 }
+@media (min-width: 1280px) {
+  #contact-section #email-icon {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+@media (min-width: 1920px) {
+  #contact-section #email-icon {
+    width: 8rem;
+    height: 8rem;
+  }
+}
 #contact-section #phone-icon {
   fill: #02254b;
   width: 5rem;
   height: 5rem;
+}
+@media (min-width: 1280px) {
+  #contact-section #phone-icon {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+@media (min-width: 1920px) {
+  #contact-section #phone-icon {
+    width: 7rem;
+    height: 7rem;
+  }
 }/*# sourceMappingURL=main.css.map */
