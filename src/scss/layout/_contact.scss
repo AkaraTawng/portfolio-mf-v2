@@ -24,19 +24,25 @@
         li {
             margin-top: -4%;  
         }
-
-        a {
+        
+        .social-icon-link {
             fill: rgba(map-get($colors, "primary"), 0.7);
-        }
-        a:hover {
-            fill: rgba(map-get($colors, "primary"), 1);
-            box-shadow: 8px 8px 8px black;
         }
     }
     #linkedin {
         width: 3.8rem;
         height: 3.8rem;    
         margin-top: -4%;  
+    }
+
+    #svg {
+        &:hover {
+            fill:map-get($colors, "primary") ;
+            filter: drop-shadow(5px 5px 1px rgb(150, 149, 149));
+        }
+        &:active {
+            filter: drop-shadow(2px 2px 2px map-get($colors, "secondary"));
+        }
     }
     
     #github {
