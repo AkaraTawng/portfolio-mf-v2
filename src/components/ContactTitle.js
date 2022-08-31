@@ -1,3 +1,3 @@
 export default function ContactTitle() {
-    return <h2>Contact</h2>;
+    return <h1 id="contact-title">Contact</h1>;
 };
