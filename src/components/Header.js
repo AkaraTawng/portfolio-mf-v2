@@ -1,12 +1,27 @@
 import Nav from "./Nav.js";
 import Theme from "./Theme.js";
+import { useMatch } from "react-router-dom";
+import HomeTitle from "./HomeTitle.js";
+import ContactTitle from "./ContactTitle.js";
+import ProjectTitle from "./ProjectTitle.js";
 
 /* test */
 import {useContext} from "react";
 import {ThemeContext} from "./ThemeContext.js";
 
 export default function Header(){
+    const home = useMatch("/")
+    const contact = useMatch("/contact")
+    const project = useMatch("/projects");
     const context = useContext(ThemeContext);
+    let title = "";
+    if (home) {
+        title =  <HomeTitle/>; 
+    } else if (contact) {
+        title = <ContactTitle/>;
+    } else if (project) {
+        title = <ProjectTitle/>
+    }
     console.log("theme", context)
     return <>
         <div id="header-wrapper">
@@ -15,8 +30,7 @@ export default function Header(){
                 <Theme/>
             </div>   
             <div id="header-title-subtitle-container">
-                <h1 className={context.theme} id="header-title">Christopher Chamberlain</h1>
-                <h2>Front End Web Developer</h2>
+               {title}
             </div>            
         </div>
      </>};
