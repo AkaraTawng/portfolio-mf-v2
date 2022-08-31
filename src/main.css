@@ -509,13 +509,15 @@
 
 #about-me-section {
   margin-bottom: 6.5rem;
-  margin-top: 7rem;
-  padding: 0 1.5rem;
-  height: 8rem;
+  margin-top: 6rem;
+  height: 10rem;
+  color: #02254b;
+  line-height: 2rem;
+  font-size: 1.18rem;
 }
 @media (min-width: 768px) {
   #about-me-section {
-    height: 14rem;
+    height: 11rem;
     margin-top: 12rem;
   }
 }
@@ -526,8 +528,8 @@
 }
 @media (min-width: 1920px) {
   #about-me-section {
-    height: 22rem;
-    margin-top: 15rem;
+    height: 18rem;
+    margin-top: 18rem;
   }
 }
 #about-me-section h2 {
@@ -551,7 +553,9 @@
   }
 }
 #about-me-section p {
-  text-align: center;
+  text-align: start;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
 }
 @media (min-width: 768px) {
   #about-me-section p {
@@ -566,6 +570,8 @@
 @media (min-width: 1920px) {
   #about-me-section p {
     font-size: 2.3rem;
+    padding-left: 6rem;
+    padding-right: 1.5rem;
   }
 }
 
@@ -573,6 +579,7 @@
   background-color: #02254b;
   height: 16rem;
   position: relative;
+  margin-top: 11rem;
 }
 @media (min-width: 768px) {
   #skills-section {
