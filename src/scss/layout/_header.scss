@@ -90,15 +90,35 @@
 #contact-title {
     color: white;
     text-align: center;
-    font-size: 5rem;
-    margin-top: 6rem;
+    font-size: 4.5rem;
+    margin-top: 4rem;
     letter-spacing: 0.1rem;
+    @include tablet {
+        font-size: 5.4rem;
+    }
+    @include laptop {
+        margin-top: 5.5rem;
+    }
+    @include desktop {
+        font-size: 6.7rem;
+        margin-top: 7rem;
+    }
 }
 
 #project-title {
     color: white;
     text-align: center;
-    font-size: 5rem;
-    margin-top: 6rem;
+    font-size: 4.5rem;
+    margin-top: 3.8rem;
     letter-spacing: 0.1rem;
+    @include tablet {
+        font-size: 5.4rem;
+    }
+    @include laptop {
+        margin-top: 5.9rem;
+    }
+    @include desktop {
+        font-size: 6.7rem;
+        margin-top: 7rem;
+    }
 }

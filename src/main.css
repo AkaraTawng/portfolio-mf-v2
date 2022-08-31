@@ -103,17 +103,49 @@
 #contact-title {
   color: white;
   text-align: center;
-  font-size: 5rem;
-  margin-top: 6rem;
+  font-size: 4.5rem;
+  margin-top: 4rem;
   letter-spacing: 0.1rem;
+}
+@media (min-width: 768px) {
+  #contact-title {
+    font-size: 5.4rem;
+  }
+}
+@media (min-width: 1280px) {
+  #contact-title {
+    margin-top: 5.5rem;
+  }
+}
+@media (min-width: 1920px) {
+  #contact-title {
+    font-size: 6.7rem;
+    margin-top: 7rem;
+  }
 }
 
 #project-title {
   color: white;
   text-align: center;
-  font-size: 5rem;
-  margin-top: 6rem;
+  font-size: 4.5rem;
+  margin-top: 3.8rem;
   letter-spacing: 0.1rem;
+}
+@media (min-width: 768px) {
+  #project-title {
+    font-size: 5.4rem;
+  }
+}
+@media (min-width: 1280px) {
+  #project-title {
+    margin-top: 5.9rem;
+  }
+}
+@media (min-width: 1920px) {
+  #project-title {
+    font-size: 6.7rem;
+    margin-top: 7rem;
+  }
 }
 
 #theme-placeholder {
