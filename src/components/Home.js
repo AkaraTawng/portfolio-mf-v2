@@ -14,7 +14,7 @@ export default function Home(){
     <div id="home-wrapper">
         <section id="about-me-section">
             <h2>About Me</h2>
-            <p>I'm a meticulous front-end web developer with good knowledge of modern web development practices who can translate any design into a kick-ass website.
+            <p>A meticulous, creative, and driven self-taught frontend web developer with well-rounded knowledge of modern web development best practices and technologies who can translate any design into an elegant, satisfying solution. 
             </p>
         </section>
 
