@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
-export default function Contact(){
+import { useEffect } from "react";
+export default function Contact(props){
+    useEffect(() => {
+        document.title = props.title;
+    }, []);
     return <>
     <div id="contact-wrapper">
         <h2>Get in touch with me:</h2>
