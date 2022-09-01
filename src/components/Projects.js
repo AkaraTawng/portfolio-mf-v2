@@ -1,6 +1,10 @@
 import { MdLockClock } from "react-icons/md";
 import ProjectItem from "./ProjectItem";
-export default function Projects(){
+import { useEffect } from "react";
+export default function Projects(props){
+    useEffect(() => {
+        document.title = props.title;
+    }, []);
     return <>
         <div id="project-item-grid-container">
           
