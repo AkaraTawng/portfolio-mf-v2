@@ -446,6 +446,16 @@
 #loader-icon-wrapper {
   margin: 2% 0 0 25%;
 }
+@media (min-width: 768px) {
+  #loader-icon-wrapper {
+    margin: 19% 0 0 38%;
+  }
+}
+@media (min-width: 1280px) {
+  #loader-icon-wrapper {
+    margin: 14% 0 0 40%;
+  }
+}
 
 #footer-wrapper {
   position: relative;

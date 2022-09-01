@@ -1,4 +1,10 @@
 
 #loader-icon-wrapper {
     margin: 2% 0 0 25%;
+    @include tablet {
+        margin: 19% 0 0 38%;
+    }
+    @include laptop {
+        margin: 14% 0 0 40%;
+    }
 };
