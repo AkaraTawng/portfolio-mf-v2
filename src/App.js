@@ -23,9 +23,9 @@ export default function App() {
       {isLoading ? <Loader/> : <Header/>}
         
         <Routes>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/" element={<Home/>} />
-          <Route path="/projects" element={<Projects/>} />
+          <Route path="/contact" element={<Contact title="Contact"/>}/>
+          <Route path="/" element={<Home title="Home"/>} />
+          <Route path="/projects" element={<Projects title="Projects"/>} />
           <Route path="/resume" element={<RedirectPage setIsLoading={setIsLoading}/>} />
           <Route path="/linkedin" element={<RedirectPage setIsLoading={setIsLoading}/>} />
           <Route path="/github" element={<RedirectPage setIsLoading={setIsLoading}/>} />
