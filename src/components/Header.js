@@ -4,8 +4,6 @@ import { useMatch } from "react-router-dom";
 import HomeTitle from "./HomeTitle.js";
 import ContactTitle from "./ContactTitle.js";
 import ProjectTitle from "./ProjectTitle.js";
-
-/* test */
 import {useContext} from "react";
 import {ThemeContext} from "./ThemeContext.js";
 
@@ -24,7 +22,7 @@ export default function Header(){
     }
     console.log("theme", context)
     return <>
-        <div id="header-wrapper">
+        <div id="header-wrapper" className={context.theme}>
             <div id="nav-theme-flex-container">    
                 <Nav/>
                 <Theme/>

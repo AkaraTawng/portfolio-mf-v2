@@ -1,3 +1,6 @@
+import {useContext} from "react";
+import {ThemeContext} from "./ThemeContext.js";
 export default function ProjectTitle() {
-    return <h1 id="project-title">Projects</h1>;
+    const context = useContext(ThemeContext);
+    return <h1 className={context.theme} id="project-title">Projects</h1>;
 }

@@ -1,0 +1,37 @@
+/* nav */
+.hamburger.light, .close-hamburger.light {
+    color: map-get($colors, "primary");
+}
+
+#nav-links-container.light {
+    background-color: rgb(233, 236, 239);
+
+    .nav-link.light {
+        color: map-get($colors, "primary");
+
+        &.active {
+            border-bottom: 1px solid map-get($colors, "secondary");
+        }
+    }
+}
+
+/* header */
+#header-wrapper.light {
+        background-color: white;
+
+       #header-title {
+        color: map-get($colors, "primary");
+       }
+       
+       &::after{
+        border-bottom: 2px solid  map-get($colors, "primary");
+    }
+}
+
+#contact-title.light {
+    color: map-get($colors, "primary");
+}
+
+#project-title.light {
+    color: map-get($colors, "primary");
+}

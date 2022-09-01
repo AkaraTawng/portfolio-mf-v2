@@ -15,10 +15,11 @@
         height: 100%;
         top: 0;
         left: 0;
-        background-color: map-get($colors, "primary");
+        background-color: inherit;
         transform-origin: bottom right;
         transform: skewY(-10deg);
         z-index: -1;
+        // border-bottom: 4px solid gold !important;
         @include laptop {
             transform: skewY(-6deg);
         }
