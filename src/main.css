@@ -299,6 +299,25 @@
   color: #02254b;
 }
 
+/* footer */
+#footer-wrapper.light {
+  background-color: rgb(233, 236, 239);
+}
+#footer-wrapper.light #sitemap > h2 {
+  color: #02254b;
+}
+#footer-wrapper.light .footer-link {
+  color: #02254b !important;
+}
+
+#contact.light {
+  color: #02254b !important;
+}
+
+#copyright.light {
+  color: #02254b !important;
+}
+
 #nav-links-container {
   /* mobile */
   display: flex;

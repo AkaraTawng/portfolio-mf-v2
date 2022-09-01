@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
+import {useContext} from "react";
+import {ThemeContext} from "./ThemeContext.js";
 export default function Footer() {
+    const context = useContext(ThemeContext);
     return <>
-        <div id="footer-wrapper">
+        <div id="footer-wrapper" className={context.theme}>
              <div id="sitemap-contact-flex-container">   
                 <section id="sitemap">
                     <h2>Sitemap</h2>
@@ -15,7 +18,7 @@ export default function Footer() {
                     </ul>
                 </section>
 
-                <section id="contact">
+                <section id="contact" className={context.theme}>
                     <h2>Contact</h2>
                     <ul>
                         <li>
@@ -27,7 +30,7 @@ export default function Footer() {
                     </ul>
                 </section>
             </div>
-            <p id="copyright">&copy; Christopher Chamberlain 2022</p>
+            <p className={context.theme} id="copyright">&copy; Christopher Chamberlain 2022</p>
         </div>
     </>
 }

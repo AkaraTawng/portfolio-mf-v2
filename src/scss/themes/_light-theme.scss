@@ -35,3 +35,28 @@
 #project-title.light {
     color: map-get($colors, "primary");
 }
+
+/* footer */
+#footer-wrapper.light {
+    background-color:  rgb(233, 236, 239);
+
+    #sitemap>h2 {
+        color: map-get($colors, "primary");
+    }
+
+    .footer-link{
+        color:  map-get($colors, "primary") !important;
+    }
+}
+
+#contact.light {
+    color: map-get($colors, "primary") !important;
+}
+
+#copyright.light {
+    color: map-get($colors, "primary") !important;
+}
+
+
+
+
