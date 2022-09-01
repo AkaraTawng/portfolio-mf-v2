@@ -271,7 +271,7 @@
 }
 
 #nav-links-container.light {
-  background-color: rgb(233, 236, 239);
+  background-color: rgb(222, 226, 230);
 }
 #nav-links-container.light .nav-link.light {
   color: #02254b;
@@ -283,6 +283,7 @@
 /* header */
 #header-wrapper.light {
   background-color: white;
+  background-color: rgb(233, 236, 239);
 }
 #header-wrapper.light #header-title {
   color: #02254b;
@@ -299,9 +300,29 @@
   color: #02254b;
 }
 
+/* home */
+#skills-section.light {
+  background-color: rgb(233, 236, 239);
+}
+#skills-section.light ::before {
+  background-color: rgb(233, 236, 239);
+  border-top: 2px solid #02254b;
+}
+#skills-section.light ::after {
+  background-color: rgb(233, 236, 239);
+  border-bottom: 2px solid #02254b;
+}
+#skills-section.light h2 {
+  color: #02254b;
+}
+#skills-section.light li {
+  color: #02254b;
+}
+
 /* footer */
 #footer-wrapper.light {
   background-color: rgb(233, 236, 239);
+  border-top: 2px solid #02254b;
 }
 #footer-wrapper.light #sitemap > h2 {
   color: #02254b;

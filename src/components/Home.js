@@ -6,10 +6,13 @@ import { FaGitAlt } from "react-icons/fa";
 import { SiReact } from "react-icons/si";
 import Tippy from "@tippyjs/react";
 import Tooltip from "./Tooltip";
+import {useContext} from "react";
+import {ThemeContext} from "./ThemeContext.js";
 
 
 
 export default function Home(){
+    const context = useContext(ThemeContext);
     return <>
     <div id="home-wrapper">
         <section id="about-me-section">
@@ -18,7 +21,7 @@ export default function Home(){
             </p>
         </section>
 
-        <section id="skills-section">
+        <section id="skills-section" className={context.theme}>
             <h2>Skills</h2>
             <div id="grid-container">
                 <ul>
