@@ -821,6 +821,7 @@
 #contact-wrapper h2 {
   font-size: 3rem;
   text-align: center;
+  color: #02254b;
 }
 @media (min-width: 1920px) {
   #contact-wrapper h2 {

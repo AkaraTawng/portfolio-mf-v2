@@ -11,6 +11,7 @@
     h2 {
         font-size: 3rem;
         text-align: center;
+        color: map-get($colors, "primary");
         @include desktop {
             font-size: 4rem;
         }
