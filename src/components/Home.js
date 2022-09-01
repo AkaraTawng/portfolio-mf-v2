@@ -8,11 +8,17 @@ import Tippy from "@tippyjs/react";
 import Tooltip from "./Tooltip";
 import {useContext} from "react";
 import {ThemeContext} from "./ThemeContext.js";
+import { useEffect } from "react";
 
 
 
-export default function Home(){
+export default function Home(props){
     const context = useContext(ThemeContext);
+    useEffect(() => {
+        document.title = props.title;
+    }, []);
+
+
     return <>
     <div id="home-wrapper">
         <section id="about-me-section">
