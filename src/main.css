@@ -665,7 +665,7 @@
   align-items: center;
 }
 #project-item-container-outer h2 {
-  color: #02254b;
+  color: black;
   text-align: center;
   margin-bottom: 1rem;
   font-size: 1.7rem;
@@ -714,6 +714,7 @@
 #project-item-container-outer #view-repo:hover {
   border-bottom: 8px solid #9c8321;
   transition: 0.1s ease-out;
+  box-shadow: 5px 10px 10px;
 }
 #project-item-container-outer #view-repo ::after {
   content: "";
@@ -749,6 +750,7 @@
 #project-item-container-outer #view-site:hover {
   border-bottom: 8px solid #9c8321;
   transition: 0.1s ease-out;
+  box-shadow: 5px 10px 10px;
 }
 #project-item-container-outer #view-site ::after {
   content: "";
