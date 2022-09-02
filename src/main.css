@@ -395,6 +395,7 @@
     display: block;
   }
   .navigation #nav-links-container {
+    background-color: rgba(0, 0, 0, 0.4);
     height: 0.3%;
     display: flex;
     flex-direction: row;
