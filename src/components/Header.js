@@ -33,7 +33,13 @@ export default function Header(){
             <motion.div id="header-title-subtitle-container"
             initial= {{opacity: 0, y: -500}}
             animate={{opacity: 1, y: 0}}
-            transition = {{delay: 0.3}}
+            transition = {{
+                delay: 0.3,
+                duration: 1,
+                type: 'spring',
+                bounce: 0.5,
+
+            }}
 
             >
                {title}
