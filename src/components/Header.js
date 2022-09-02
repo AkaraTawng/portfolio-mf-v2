@@ -4,6 +4,7 @@ import { useMatch } from "react-router-dom";
 import HomeTitle from "./HomeTitle.js";
 import ContactTitle from "./ContactTitle.js";
 import ProjectTitle from "./ProjectTitle.js";
+import { motion } from 'framer-motion';
 
 /* test */
 import {useContext} from "react";
