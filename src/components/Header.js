@@ -30,8 +30,13 @@ export default function Header(){
                 <Nav/>
                 <Theme/>
             </div>   
-            <div id="header-title-subtitle-container">
+            <motion.div id="header-title-subtitle-container"
+            initial= {{opacity: 0, y: -500}}
+            animate={{opacity: 1, y: 0}}
+            transition = {{delay: 0.3}}
+
+            >
                {title}
-            </div>            
+            </motion.div>            
         </div>
      </>};
