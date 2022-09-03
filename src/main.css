@@ -261,10 +261,6 @@
   background-color: #9c8321;
 }
 
-#header-title-subtitle-container #header-title.dark {
-  color: cadetblue;
-}
-
 /* nav */
 .hamburger.light, .close-hamburger.light {
   color: #02254b;
@@ -382,6 +378,7 @@
   align-items: flex-start;
   flex-direction: column;
   position: absolute;
+  z-index: 1;
   cursor: pointer;
 }
 @media (min-width: 1280px) {
@@ -414,6 +411,11 @@
 @media (min-width: 1280px) and (min-width: 1920px) {
   .navigation #nav-links-container .nav-link {
     font-size: 1.6rem;
+  }
+}
+@media (min-width: 1280px) {
+  .navigation #nav-links-sm {
+    display: none;
   }
 }
 
