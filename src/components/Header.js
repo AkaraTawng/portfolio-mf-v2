@@ -5,15 +5,15 @@ import HomeTitle from "./HomeTitle.js";
 import ContactTitle from "./ContactTitle.js";
 import ProjectTitle from "./ProjectTitle.js";
 
-export default function Header({key}){
+export default function Header(){
     const home = useMatch("/")
     const contact = useMatch("/contact")
     const project = useMatch("/projects");
     let title = "";
     if (home) {
-        title =  <HomeTitle key={key} />; 
+        title =  <HomeTitle/>; 
     } else if (contact) {
-        title = <ContactTitle key={key}/>;
+        title = <ContactTitle/>;
     } else if (project) {
         title = <ProjectTitle/>
     }
@@ -24,8 +24,8 @@ export default function Header({key}){
                 <Nav/>
                 <Theme/>
             </div>   
-                <div id="header-title-subtitle-container">
+            <div id="header-title-subtitle-container">
                 {title}
-                </div>        
+            </div>        
         </div>
      </>};
