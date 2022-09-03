@@ -14,7 +14,6 @@
     
     li{
         list-style-type: none;
-        // display: none;
     }
 
     .nav-link{
@@ -42,6 +41,7 @@
     align-items: flex-start;
     flex-direction: column;
     position: absolute;
+    z-index: 1;
     cursor: pointer;
     @include laptop {
         display: none;
