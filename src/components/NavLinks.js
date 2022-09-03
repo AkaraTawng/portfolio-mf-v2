@@ -17,6 +17,7 @@ const NavLinks = (props) => {
     }
 
     return (<>
+    <div id="nav-links-sm">
             <ul id="nav-links-container" className={context.theme}>
                 <motion.li 
                     initial={animateFrom}
@@ -62,6 +63,7 @@ const NavLinks = (props) => {
                     <NavLink className={`nav-link external-navlink ${context.theme}`}  to="/github" target="_blank" rel="noreferrer">GitHub</NavLink>
                 </motion.li>
             </ul>
+            </div>
     </>)
 };
 
