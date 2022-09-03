@@ -9,8 +9,11 @@
     .nav-link.light {
         color: map-get($colors, "primary");
 
+        &:hover{
+            color: white;
+        }
         &.active {
-            border-bottom: 1px solid map-get($colors, "secondary");
+            border-bottom: 1px solid white;
         }
     }
 }

@@ -1,9 +1,10 @@
 import "../src/main.css";
 
 //router
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 import {useState} from 'react';
+
 
 //components
 import Nav from "./components/Nav.js";
@@ -14,22 +15,25 @@ import RedirectPage from "./components/RedirectPage.js";
 import Loader from "./components/Loader";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { AnimatePresence } from "framer-motion";
 
 
 export default function App() {
   /* refactor loading state to context for resuse */
   const [isLoading, setIsLoading] = useState(false);
+  const location = useLocation();
   return<>
-      {isLoading ? <Loader/> : <Header/>}
-        
-        <Routes>
-          <Route path="/contact" element={<Contact title="Contact"/>}/>
-          <Route path="/" element={<Home title="Home"/>} />
-          <Route path="/projects" element={<Projects title="Projects"/>} />
-          <Route path="/resume" element={<RedirectPage setIsLoading={setIsLoading}/>} />
-          <Route path="/linkedin" element={<RedirectPage setIsLoading={setIsLoading}/>} />
-          <Route path="/github" element={<RedirectPage setIsLoading={setIsLoading}/>} />
-        </Routes>
+      {isLoading ? <Loader/> : <Header key={location.key}/>}
+        <AnimatePresence exitBeforeEnter>
+          <Routes location={location} key={location.key}>
+            <Route path="/contact" element={<Contact  title="Contact"/>}/>
+            <Route path="/" element={<Home  title="Home"/>} />
+            <Route path="/projects" element={<Projects  title="Projects"/>} />
+            <Route path="/resume" element={<RedirectPage setIsLoading={setIsLoading}/>} />
+            <Route path="/linkedin" element={<RedirectPage setIsLoading={setIsLoading}/>} />
+            <Route path="/github" element={<RedirectPage setIsLoading={setIsLoading}/>} />
+          </Routes>
+        </AnimatePresence>
       <Footer/>
 </>
 };

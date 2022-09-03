@@ -1,6 +1,13 @@
-import {useContext} from "react";
+import AnimatedTitle from "./AnimatedTitle"
 import {ThemeContext} from "./ThemeContext.js";
+import {useContext} from "react";
+
 export default function ProjectTitle() {
     const context = useContext(ThemeContext);
-    return <h1 className={context.theme} id="project-title">Projects</h1>;
+
+    return <>
+    <AnimatedTitle>
+        <h1 id="project-title" className={context.theme}>Projects</h1>
+    </AnimatedTitle>
+    </>
 }
