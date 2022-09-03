@@ -23,9 +23,8 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   const location = useLocation();
   return<>
-      {isLoading ? <Loader/> : <Header/>}
-        
-        <AnimatePresence>
+      {isLoading ? <Loader/> : <Header key={location.key}/>}
+        <AnimatePresence exitBeforeEnter>
           <Routes location={location} key={location.key}>
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/" element={<Home/>} />
