@@ -499,8 +499,9 @@
   list-style-type: none;
 }
 #footer-wrapper #sitemap-contact-flex-container ul .footer-link {
-  cursor: pointer;
+  cursor: crosshair;
   text-decoration: none;
+  color: white !important;
 }
 #footer-wrapper #sitemap-contact-flex-container ul .footer-link:hover {
   color: #9c8321 !important;
@@ -512,7 +513,6 @@
   color: white;
 }
 #footer-wrapper #sitemap-contact-flex-container #sitemap {
-  color: white;
   text-align: center;
 }
 #footer-wrapper #sitemap-contact-flex-container #sitemap h2 {
