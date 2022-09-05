@@ -560,6 +560,14 @@
     margin-top: 4rem;
   }
 }
+#footer-wrapper #sitemap-contact-flex-container #contact ul > li .footer-contact-link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+#footer-wrapper #sitemap-contact-flex-container #contact ul > li .footer-contact-link:hover {
+  border-bottom: 2px solid #9c8321;
+}
 #footer-wrapper #sitemap-contact-flex-container #contact ul > li span {
   font-weight: bold;
 }
