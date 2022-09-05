@@ -477,6 +477,7 @@
   }
 }
 #footer-wrapper #sitemap-contact-flex-container {
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -499,9 +500,8 @@
   list-style-type: none;
 }
 #footer-wrapper #sitemap-contact-flex-container ul .footer-link {
-  cursor: crosshair;
   text-decoration: none;
-  color: white !important;
+  color: white;
 }
 #footer-wrapper #sitemap-contact-flex-container ul .footer-link:hover {
   color: #9c8321 !important;
