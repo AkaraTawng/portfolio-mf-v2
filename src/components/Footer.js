@@ -22,10 +22,10 @@ export default function Footer() {
                     <h2>Contact</h2>
                     <ul>
                         <li>
-                            <span>Phone: </span>+856 020-983-09152
+                           <span>Phone: </span><a className="footer-contact-link" href="tel:+85602098309152">+856 020-983-09152</a>
                         </li>
                         <li>
-                            <span>Email: </span>c.r.chamberlain1997@gmail.com
+                            <span>Email: </span><a className="footer-contact-link" href="mailto:c.r.chamberlain1997@gmail.com">c.r.chamberlain1997@gmail.com</a>
                         </li>
                     </ul>
                 </section>
