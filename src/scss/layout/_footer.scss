@@ -28,6 +28,7 @@
             .footer-link {
                 cursor: pointer;
                 text-decoration: none;
+                color: white;
                 &:hover {
                     color: map-get($colors, "secondary") !important;
                 }
@@ -40,12 +41,7 @@
             }
         }
         #sitemap {
-            color: white;
-            text-align: center;
-            .footer-link{
-                color: white;
-            }
-            
+            text-align: center; 
             h2 {
                 margin-bottom: 10%;
                 @include tablet {
@@ -58,7 +54,6 @@
             }
 
             ul>li {
-                color: white;
                 margin-bottom: 5%;
                 @include tablet {
                     font-size: 1.5rem;
