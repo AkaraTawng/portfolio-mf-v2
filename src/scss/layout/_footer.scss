@@ -28,7 +28,7 @@
             .footer-link {
                 cursor: pointer;
                 text-decoration: none;
-                color: white;
+                color: white !important;
                 &:hover {
                     color: map-get($colors, "secondary") !important;
                 }
