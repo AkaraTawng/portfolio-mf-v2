@@ -77,7 +77,7 @@
         color: map-get($colors, "primary");
     }
 
-    .footer-link{
+    .footer-contact-link{
         color:  map-get($colors, "primary") !important;
     }
 }
@@ -85,6 +85,7 @@
 #contact.light {
     color: map-get($colors, "primary") !important;
 }
+
 
 #copyright.light {
     color: map-get($colors, "primary") !important;
