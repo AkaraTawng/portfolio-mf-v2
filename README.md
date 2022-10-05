@@ -20,7 +20,7 @@
 ![responsive ui gif](./img/pfresponsiveui.gif)
 
 ## Skills Section with Tooltip Hover Effect
-![product section gif](./gifs/product-section.gif)
+![tooltips gif](./img/tooltips.gif)
 
 ## Light / Dark Theme Toggle
 ![embedded video gif](./gifs/embedded-video.gif)
