@@ -31,8 +31,6 @@
 ## Custom Built Project Display Gallery
 ![newsletter sign up form](./gifs/newsletter.gif)
 
-## Custom Company Logo Hamburger Menu
-![hamburger menu](./gifs/hamburger.gif)
 ---
 
 # What I learned? 👨‍💻
