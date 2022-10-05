@@ -31,6 +31,10 @@
 ## Custom Built Project Display Gallery
 ![projects gallery gif](./img/pfprojectsgallery.gif)
 
+## Unfolding Hamburger Menu
+![unfolding hamburger menu](./img/pfhamburger.gif)
+
+
 ---
 
 # What I learned? 👨‍💻
