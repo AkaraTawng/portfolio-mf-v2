@@ -26,10 +26,10 @@
 ![theme toggle gif](./img/pfthemetoggle.gif)
 
 ## Entrance and Exit Animations on Page Change
-![order form video gif](./gifs/order-form.gif)
+![entrance & exit animations gif](./img/pfentexani.gif)
 
 ## Custom Built Project Display Gallery
-![newsletter sign up form](./gifs/newsletter.gif)
+![projects gallery gif](./img/pfprojectsgallery.gif)
 
 ---
 
