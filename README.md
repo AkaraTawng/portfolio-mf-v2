@@ -20,10 +20,10 @@
 ![responsive ui gif](./img/pfresponsiveui.gif)
 
 ## Skills Section with Tooltip Hover Effect
-![tooltips gif](./img/tooltips.gif)
+![tooltips gif](./img/pftooltips.gif)
 
 ## Light / Dark Theme Toggle
-![embedded video gif](./gifs/embedded-video.gif)
+![theme toggle gif](./img/pfthemetoggle.gif)
 
 ## Entrance and Exit Animations on Page Change
 ![order form video gif](./gifs/order-form.gif)
