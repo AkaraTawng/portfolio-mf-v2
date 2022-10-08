@@ -54,7 +54,7 @@ export default function Contact(props){
                         </svg>
                     </li>
                     <li>
-                        <a href="tel:+85602098309152">+856 020-983-09152</a>
+                        <a href="tel:+441913084247">+44 191 308 4247</a>
                     </li>
                 </ul>
             </section>
