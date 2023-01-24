@@ -15,6 +15,8 @@ export default function Projects(){
                 <ProjectItem className="cp" title={"Checkout Page"} image={require("../assets/img/checkoutpage.png")} repo={"https://github.com/AkaraTawng/checkout-page-dev-io.git"} site={"https://checkout-page-chris-chamberlain-devio.netlify.app/"}/>
                
                 <ProjectItem className="rp" title={"Recipe Page"} image={require("../assets/img/recipepage.png")} repo={"https://github.com/AkaraTawng/recipe-blog-challenge-dev-io.git"} site={"https://recipe-blog-challenge-dev-io.netlify.app/"}/>
+               
+                <ProjectItem className="rp" title={"Interior Design Landing Page"} image={require("../assets/img/interiordesign.png")} repo={"https://github.com/AkaraTawng/interior-design-consultant-devio.git"} site={"https://interior-design-devio-chrischam.netlify.app/"}/>
         
             </div>
 
