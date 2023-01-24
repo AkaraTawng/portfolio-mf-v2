@@ -11,6 +11,8 @@ export default function Projects(){
                 <ProjectItem className="cc" title={"Cactus Connoiseur"} image={require("../assets/img/cactus.png")} repo={"https://github.com/AkaraTawng/product-landing-page"} site={"#"}/>
            
                 <ProjectItem className="sf" title={"Exercise Survery Form"} image={require("../assets/img/survey.png")} repo={"https://github.com/AkaraTawng/survey-form"} site={"#"}/>
+               
+                <ProjectItem className="cp" title={"Checkout Page"} image={require("../assets/img/checkoutpage.png")} repo={"https://github.com/AkaraTawng/checkout-page-dev-io.git"} site={"https://checkout-page-chris-chamberlain-devio.netlify.app/"}/>
         
             </div>
 
