@@ -4,7 +4,7 @@ export default function Projects(){
     return <>
         <div id="project-item-grid-container">
           
-                <ProjectItem className="cl" title={"Calculator"} image={require("../assets/img/calculator.png")} repo={"https://github.com/AkaraTawng/Calculator"} site={"#"}/>
+                <ProjectItem className="cl" title={"Calculator"} image={require("../assets/img/calc2.png")} repo={"https://github.com/AkaraTawng/Calculator"} site={"#"}/>
                 
                 <ProjectItem className="mws" title={"Man With a Spade"} image={require("../assets/img/mws.png")} repo={"https://github.com/AkaraTawng/man-with-a-spade"} site={"#"}/>
          
