@@ -13,6 +13,8 @@ export default function Projects(){
                 <ProjectItem className="sf" title={"Exercise Survery Form"} image={require("../assets/img/survey.png")} repo={"https://github.com/AkaraTawng/survey-form"} site={"#"}/>
                
                 <ProjectItem className="cp" title={"Checkout Page"} image={require("../assets/img/checkoutpage.png")} repo={"https://github.com/AkaraTawng/checkout-page-dev-io.git"} site={"https://checkout-page-chris-chamberlain-devio.netlify.app/"}/>
+               
+                <ProjectItem className="rp" title={"Recipe Page"} image={require("../assets/img/recipepage.png")} repo={"https://github.com/AkaraTawng/recipe-blog-challenge-dev-io.git"} site={"https://recipe-blog-challenge-dev-io.netlify.app/"}/>
         
             </div>
 
