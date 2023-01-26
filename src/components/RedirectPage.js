@@ -11,7 +11,7 @@ export default function RedirectPage(props) {
        useEffect(() => {
         props.setIsLoading(true)
         if(matchLinkedin){
-            window.location.replace("https://www.linkedin.com/feed/");
+            window.location.replace("https://www.linkedin.com/in/christopher-chamberlain-023507205/");
         } else if(matchGithub){
             window.location.replace("https://github.com/AkaraTawng");
         } else if(matchResume){
